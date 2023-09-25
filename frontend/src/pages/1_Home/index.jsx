@@ -9,13 +9,20 @@ import widPicture from '../../assets/whatido.png';
 import blackHole from '../../assets/Blackhole.gif';
 import surfPicture from '../../assets/surfer.png';
 import resumePicture from '../../assets/CV_Simon_Garbet_Portfolio.png';
+import logomenuB from '../../assets/logomenuB.png';
 
 
 function Home() {
   return (
     <div className="globalHome">
 
-      <Header />
+      <Header 
+      colorLogo='#fff'
+      colorBackgroundLogo = '#000'
+      logoMenu={logomenuB}
+      colorMenu= '#000'
+      colorBackgroundMenu = "#fff"
+      />
 
       <section className='backgroundGIF'>
         <img src={blackHole} className="blackHoleHome" alt="Animation GIF Cercle Noir"></img>
@@ -48,10 +55,8 @@ function Home() {
         </Link>
 
         <Link to = {'/resume'} className='resumePartHome'>
-          <section className='allBloks'>
           <section className='yellowBlok1'></section>
           <section className='yellowBlok2'></section>
-          </section>
           <img src={resumePicture} alt='icone Ordinateur'/>
           <h3>RESUME</h3>
         </Link>

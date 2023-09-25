@@ -7,11 +7,9 @@ import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
 import '../../scss/style.scss';
 
-import logoMenuB from '../../assets/logomenuB.png';
 
 
-
-function Header() {
+function Header({colorLogo, colorBackgroundLogo, logoMenu, colorMenu, colorBackgroundMenu}) {
 
     const [isOpen, setIsOpen] = useState(false)
 
@@ -23,12 +21,22 @@ function Header() {
         <div className='overlay'  style={{ display: isOpen ? 'block' : 'none' }}></div>
 
         <section className='basicHeader'>
-        <Link to = {'/'} className='homePageLink'><h1>simongarbet<span>.com</span></h1></Link>
-        <button onClick={() => setIsOpen(true)} style={{ display: isOpen ? 'none' : 'flex' }}>menu <img src={logoMenuB} alt='Logo du Menu' /></button>
+
+        <Link to = {'/'} className='homePageLink' 
+            style={{color: isOpen ? 'white' : `${colorLogo}`, background: isOpen ? 'none' : `${colorBackgroundLogo}`}}>
+            <h1>simongarbet<span>.com</span></h1>
+        </Link>
+        <button onClick={() => setIsOpen(true)} 
+            style={{ display: isOpen ? 'none' : 'flex', color: `${colorMenu}`, background: `${colorBackgroundMenu}` }}>
+            menu <img src={logoMenu} alt='Logo du Menu' />
+        </button>
+
         </section>
 
         <section className='modalHeader' style={{ display: isOpen ? 'block' : 'none' }}>
+
             <FontAwesomeIcon icon={faXmark} onClick={() => setIsOpen(false)} />
+            
             <section className='menuModalHeader'>
                 <div>
                     <h3>Networks</h3>

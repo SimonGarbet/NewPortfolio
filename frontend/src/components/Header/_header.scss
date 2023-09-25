@@ -8,17 +8,19 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 20px 80px 80px 80px;
+    width: 90%;
+    margin: 0 auto;;
+    padding: 20px 0px 80px 0px;
 
     .homePageLink{
-        color: white;
         text-decoration: none;
+        padding: 15px 25px;
+        border-radius: 50px;
     }
 
     h1{
         font-size: 24px;
         font-weight: 600;
-        padding: 15px 0px;
         span{
             font-size: 12px;
         }
@@ -29,7 +31,6 @@
         align-items: center;
         gap: 20px;
         border: none;
-        background: white;
 
         padding: 15px 25px;
         border-radius: 50px;

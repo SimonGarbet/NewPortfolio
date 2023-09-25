@@ -1,8 +1,8 @@
 
-function App() {
+function Home() {
   return (
     <h1>Home Page</h1>
   )
 }
 
-export default App;
+export default Home;

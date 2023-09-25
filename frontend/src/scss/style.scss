@@ -1,8 +1,43 @@
 @import '../pages/1_Home/home';
 
 
+@import '../components/Header/header';
+
+
 
 @import './variables';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+@font-face {
+  font-family: "Gallery Modern";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GalleryModern.otf") format("opentype");
+};
+
+@font-face {
+  font-family: "Astralaga";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Astralaga\ Regular.ttf") format("truetype");
+};
+
+@font-face {
+  font-family: "Sage";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Sage.otf") format("opentype");
+};
+
+@font-face {
+  font-family: "Tan Paradiso";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/tan-paradiso.otf") format("opentype");
+};
+
 
 *, *::before, *::after {
     font-family: 'Poppins', sans-serif;
@@ -10,3 +45,6 @@
     margin: 0;
     box-sizing: border-box;
   }
+
+
+

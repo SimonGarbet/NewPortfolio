@@ -1,0 +1,13 @@
+.globalHomePage {
+  background-color: red;
+}
+.globalHomePage h1 {
+  font-size: 200px;
+}
+
+*, *::before, *::after {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=style.css.map */

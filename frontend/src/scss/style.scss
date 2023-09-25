@@ -1,0 +1,12 @@
+@import '../pages/1_Home/home';
+
+
+
+@import './variables';
+
+*, *::before, *::after {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }

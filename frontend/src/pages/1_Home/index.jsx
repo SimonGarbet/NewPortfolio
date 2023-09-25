@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import '../../scss/style.scss';
 
 import Header from '../../components/Header';
@@ -27,7 +29,7 @@ function Home() {
 
       <section className='menuHome'>
 
-        <div className='widPartHome'>
+      <Link to = {'/achievements'} className='widPartHome'>
 
           <section className='allBarret'>
           <section className='redBarret1'></section>
@@ -38,21 +40,21 @@ function Home() {
 
           <img src={widPicture} alt='icone Ordinateur'/>
           <h3>WHAT I DO ?</h3>
-        </div>
+        </Link>
 
-        <div className='surfPartHome'>
+        <Link to = {'/aboutme'} className='surfPartHome'>
           <img src={surfPicture} alt='icone Ordinateur'/>
           <h3>ABOUT ME</h3>
-        </div>
+        </Link>
 
-        <div className='resumePartHome'>
+        <Link to = {'/resume'} className='resumePartHome'>
           <section className='allBloks'>
           <section className='yellowBlok1'></section>
           <section className='yellowBlok2'></section>
           </section>
           <img src={resumePicture} alt='icone Ordinateur'/>
           <h3>RESUME</h3>
-        </div>
+        </Link>
 
       </section>
 

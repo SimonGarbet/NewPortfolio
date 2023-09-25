@@ -1,10 +1,8 @@
 
-
-
 .basicHeader{
 
     position: relative;
-    z-index: 10;
+    z-index: 21;
 
     display: flex;
     justify-content: space-between;
@@ -15,14 +13,12 @@
     .homePageLink{
         color: white;
         text-decoration: none;
-        position: relative;
-        z-index: 20;
     }
 
     h1{
         font-size: 24px;
         font-weight: 600;
-
+        padding: 15px 0px;
         span{
             font-size: 12px;
         }
@@ -43,10 +39,103 @@
         cursor: pointer;
 
         img{
-            width: 65px;
+            width: 60px;
             height: 25px;
         }
     }
 
 
 }
+
+.overlay{
+    position: absolute;
+    z-index: 20;
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    opacity: 60%;
+}
+
+
+.modalHeader{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 21;
+
+    height: 100vh;
+    width: 55%;
+
+    background-color: white;
+    color: #000;
+
+        svg{
+            font-size: 40px;
+            position: fixed;
+            right: 170px;
+            top: 40px;
+            cursor: pointer;
+        }
+
+}
+
+.menuModalHeader{
+    display: flex;
+    gap: 20%;
+
+    height: 80vh;
+    width: 100%;
+    transform: translate(15%, 40%);
+
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    h3{
+        font-size: 18px;
+        font-weight: 500;
+        color: #9f9f9f;
+        margin-bottom: 50px;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+
+    .mainMenuModalHeader{
+        h3{
+            margin-bottom: 35px ;
+        }
+        a{
+            font-size: 50px;
+        }
+    }
+
+
+}
+
+
+.contactModalHeader{
+    width: 100%;
+    transform: translateX(15%);
+
+    h3{
+        padding: 30px 0;
+        font-size: 18px;
+        font-weight: 500;
+        color: #9f9f9f;
+    }
+
+    a{
+        color: #000;
+        font-size: 22px;
+    }
+
+}
+
+
+

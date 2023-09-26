@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header';
 
 import logomenuW from '../../assets/logomenuW.png';
-import darkSoul from '../../assets/DarkSoul.gif'
+import darkSoul from '../../assets/DarkSoul.gif';
 
-import '../../scss/style.scss'
+import '../../scss/style.scss';
 
 function Error404() {
   return (

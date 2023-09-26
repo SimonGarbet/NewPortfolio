@@ -1,7 +1,10 @@
 
 .basicHeader{
 
-    position: relative;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
     z-index: 21;
 
     display: flex;
@@ -87,7 +90,7 @@
     color: #000;
 
         svg{
-            font-size: 40px;
+            font-size: 35px;
             position: fixed;
             right: 80px;
             top: 40px;
@@ -98,16 +101,16 @@
 
 .menuModalHeader{
     display: flex;
-    gap: 18%;
-
+    gap: 20%;
     height: 80vh;
-    width: 100%;
-    transform: translate(10%, 40%);
+    width: 85%;
+    margin: auto;
 
     div{
         display: flex;
         flex-direction: column;
         gap: 20px;
+        transform: translateY(35%)
     }
 
     h3{
@@ -123,12 +126,12 @@
         text-decoration: none;
     }
 
-    .LinkedinLink{
+    .linkedinLink{
 
         &::after{
             content: "";
             display: block;
-            height: 2px;
+            height: 1px;
             background: #000;
             width: 72px;
             transition-duration: 1s;
@@ -141,12 +144,12 @@
 
     }
 
-    .GithubLink{
+    .githubLink{
 
         &::after{
             content: "";
             display: block;
-            height: 2px;
+            height: 1px;
             background: #000;
             width: 60px;
             transition-duration: 1s;
@@ -170,11 +173,20 @@
             text-align: left;
             transition-duration: 1s;
 
+            strong{
+                border-radius: 20px;
+                padding: 10px 0px;
+                transition-duration: 0.5s;
+            }
+
             &:hover{
-                transform: scale(1.15);
+                transform: scale(1.03);
+                
 
                 strong{
-                    text-decoration: underline;
+                    background-color: #000;
+                    color: #fff;
+                    padding: 10px 15px;
                 }
             }
 
@@ -187,7 +199,12 @@
 
 
 .contactModalHeader{
-    transform: translateX(10%);
+
+    position: relative;
+    z-index: 21;
+
+    width: 85%;
+    margin: auto;
 
     h3{
         padding: 30px 0;
@@ -199,7 +216,7 @@
     a{
         color: #000;
         font-size: 22px;
-        text-decoration: none;
+        text-decoration: none;  
         
         &::after{
             content: "";
@@ -208,7 +225,6 @@
             background: #000;
             width: 300px;
             transition-duration: 1s;
-            
         }
 
         &:hover::after{

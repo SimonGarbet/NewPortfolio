@@ -1,0 +1,252 @@
+.titleAbout{
+    width: 90%;
+    text-align: center;
+
+    margin: 200px auto;
+
+    h2{
+        font-size: 90px;
+        font-weight: 500;
+    }
+
+    p{
+        font-size: 50px;
+    }
+
+    .galleryWord{
+        font-family: "Gallery Modern";
+        font-size: 100px;
+    }
+
+    img{
+        margin-top: 200px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    }
+
+}
+
+
+.devSection{
+
+    width: 70%;
+    margin: 0 auto;
+
+    .devDescription{
+
+        display: flex;
+        gap: 100px;
+        font-size: 22px;
+        text-align: justify;
+
+        h3{
+            font-size: 20px;
+        }
+
+    }
+
+    .devSummary{
+
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+
+        margin: 150px 0;
+
+        h4{
+            font-size: 50px;
+        }
+
+        p{
+           font-size: 25px; 
+        }
+    }
+
+
+    .devGallery{
+
+        display: flex;
+        justify-content: space-between;
+
+        img{
+            width: 44%;
+            border-radius: 40px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            margin-bottom: 200px;
+        }
+
+        .gapPicture{
+            margin-top: 200px;
+            margin-bottom: 0;
+        }
+    }
+
+
+
+}
+
+
+
+.sportySection{
+
+    margin: 200px 0;
+
+
+
+    .sportyDescription{
+        width: 70%;
+        margin: 0 auto;
+
+        display: flex;
+        gap: 100px;
+        font-size: 22px;
+        text-align: justify;
+    
+        h3{
+                font-size: 20px;
+        }
+    
+        
+
+    }
+
+    .sportySummary{
+        
+        width: 70%;
+        margin: 150px auto;
+
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+
+        h4{
+            font-size: 32px;
+        }
+
+        p{
+           font-size: 20px; 
+        }
+
+    }
+
+    .sportyGallery{
+        width: 90%;
+        margin: 0 auto;
+
+        img{
+            width: 100%;
+            border-radius: 30px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        }
+
+    }
+
+
+
+}
+
+
+
+
+
+
+.gamerSection{
+
+    margin: 200px 0;
+
+
+
+    .gamerDescription{
+        width: 70%;
+        margin: 0 auto;
+
+        display: flex;
+        gap: 100px;
+        font-size: 22px;
+        text-align: justify;
+    
+        h3{
+                font-size: 20px;
+        }
+    
+        
+
+    }
+
+    .gamerSummary{
+        
+        width: 70%;
+        margin: 150px auto;
+
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+
+        h4{
+            font-size: 32px;
+        }
+
+        p{
+           font-size: 20px; 
+        }
+
+    }
+
+    .gamerGallery{
+        width: 90%;
+        margin: 0 auto;
+
+        img{
+            width: 100%;
+            border-radius: 30px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        }
+
+    }
+
+
+
+}
+
+
+
+.resumeRedirection{
+
+    text-decoration: none;
+
+    .scroll{
+        white-space: nowrap;
+        padding: 80px 0;
+        transition: all 0.5s ease-in-out;
+        background: #000;
+        color: #fff;
+
+        &:hover{
+            background: #fff;
+            color: #000;
+            border-top: 10px solid #000;
+            border-bottom: 10px solid #000;
+        }
+    }
+
+    .leftToRightResume{
+        display: flex;
+        gap: 300px;
+
+        animation: LeftToRightResume 30s infinite linear;
+
+    }
+
+    .galleryWord{
+        font-family: 'Gallery Modern';
+        font-size: 80px;
+    }
+
+    .poppinsWord{
+        font-size: 70px;
+        text-decoration: underline;
+    }
+
+
+}

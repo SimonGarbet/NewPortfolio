@@ -40,15 +40,15 @@ function Header({colorLogo, colorBackgroundLogo, logoMenu, colorMenu, colorBackg
             <section className='menuModalHeader'>
                 <div>
                     <h3>Networks</h3>
-                    <a className='LinkedinLink' href='https://www.linkedin.com/in/simongarbet/' target="_blank" rel="noopener noreferrer">Linkedin</a>
-                    <a className='GithubLink' href='https://github.com/SimonGarbet' target="_blank" rel="noopener noreferrer">Github</a>
+                    <a className='linkedinLink' href='https://www.linkedin.com/in/simongarbet/' target="_blank" rel="noopener noreferrer">Linkedin</a>
+                    <a className='githubLink' href='https://github.com/SimonGarbet' target="_blank" rel="noopener noreferrer">Github</a>
                 </div>
                 <div className='mainMenuModalHeader'>
                     <h3>Menu</h3>
-                    <Link to = {'/achievements'}>Mes <strong>Réalisations</strong></Link>
-                    <Link to = {'/aboutme'}>À Propos</Link>
-                    <Link to = {'/resume'}><strong>C</strong>urriculum <strong>V</strong>itae</Link>
-                    <Link to = {'/404'} style={{fontSize: '35px', fontStyle:"italic"}}>Design page <strong>404 </strong></Link>
+                    <Link to = {'/achievements'}><strong>R</strong>éalisations</Link>
+                    <Link to = {'/aboutme'}><strong>À</strong> Propos</Link>
+                    <Link to = {'/resume'}><strong>C</strong>urriculum/<strong>V</strong>itæ</Link>
+                    <Link to = {'/404'} style={{fontSize: '30px'}}><strong>404</strong> Design</Link>
                 </div>
             </section>
 

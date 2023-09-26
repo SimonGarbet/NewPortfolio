@@ -1,0 +1,145 @@
+.globalError{
+    background-color: #000;
+    height: 100vh;
+}
+
+.titleError{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    color: #fff;
+
+    width: 90%;
+    margin: 0 auto;
+    height: 40vh;
+
+    img{
+        border-radius: 50px;
+        border: rgba($color: #fff, $alpha: 0.8) 2px dotted;
+        width: 30%;
+        max-width: 450px;
+        max-height: 300px;
+        object-fit: cover;
+    }
+
+    h2{
+        font-size: 160px;
+        font-weight: 400;
+    }
+
+    h3 p{
+        font-family: 'Gallery Modern';
+        font-size: 100px;
+        font-weight: 200;
+        text-align: center;
+    }
+
+
+}
+
+
+.scrollingRedirections{
+
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+    margin-top: 100px;
+    cursor: pointer;
+
+    .leftToRightProject{
+        display: flex;
+        gap: 300px;
+
+        animation: LeftToRightProject 20s infinite linear;
+    }
+
+    .rightToLeftAbout{
+        display: flex;
+        gap: 300px;
+
+        animation: RightToLeftAbout 15s infinite linear;
+    }
+
+    .leftToRightResume{
+        display: flex;
+        gap: 300px;
+
+        animation: LeftToRightResume 30s infinite linear;
+
+    }
+
+
+
+    .scroll{
+        white-space: nowrap;
+        padding: 50px 0;
+
+        &:hover{
+            background: #fff;
+            color: #000;
+        }
+    }
+
+    .scrollwhite{
+        white-space: nowrap;
+        background: #fff;
+        padding: 50px 0;
+
+        color: #000;
+        background: #fff;
+
+        &:hover{
+            background: #000;
+            color: #fff;
+        }
+    }
+
+
+    .galleryWord{
+        font-family: 'Gallery Modern';
+        font-size: 80px;
+    }
+
+    .poppinsWord{
+        font-size: 70px;
+        text-decoration: underline;
+    }
+   
+}
+
+
+
+@keyframes LeftToRightProject {
+    from {
+        transform: translateX(0)
+    }
+
+    to {
+        transform: translateX(-2551px)
+    }
+
+}
+
+@keyframes RightToLeftAbout {
+    from {
+        transform: translateX(-1080px)
+    }
+
+    to {
+        transform: translateX(-12px)
+    }
+
+}
+
+@keyframes LeftToRightResume {
+    from {
+        transform: translateX(0)
+    }
+
+    to {
+        transform: translateX(-2280px)
+    }
+
+}

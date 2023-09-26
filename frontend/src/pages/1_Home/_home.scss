@@ -46,6 +46,7 @@
     position: relative;
     transform: translateY(-15%);
     top: 15%;
+    text-shadow: 0.5px 1px 1px #000;
 
     h2{
         padding: 50px 0px;
@@ -107,19 +108,18 @@
         .widPartHome{
             position: relative;
             z-index: 10;
-            animation: movingBlock 10s infinite linear;
+            animation: movingBlock 25s infinite linear;
         }
 
         .surfPartHome{
             background: linear-gradient(rgba(127, 153, 178, 0.9) 0 70%, rgba(127, 153, 178, 0.2));
-            animation: movingBlock 20s infinite linear;
+            animation: movingBlock 30s infinite linear;
         }
 
         .resumePartHome{
             position: relative;
             z-index: 10;
-            animation: movingBlock 15s infinite linear;
-
+            animation: movingBlock 20s infinite linear;
             section{
                 width: 100%;
             }

@@ -48,14 +48,14 @@ function Home() {
       <Link to = {'/achievements'} className='widPartHome'
       onMouseOver={() => setOnAchievements(true)}
       onMouseLeave={() => setOnAchievements(false)}
-      style={{ border: onAchievements ? '10px solid #fff' : 'none', filter: (onAbout || onResume) ? "grayscale(0.8)" : "grayscale(0)",}}
+      style={{ border: onAchievements ? '8px ridge #fff' : '5px ridge #fff', filter: (onAbout || onResume) ? "grayscale(0.9)" : "grayscale(0)",}}
       >
 
           <section className='allBarret'>
           <section className='redBarret1' ></section>
           <section className='redBarret2'></section>
           <section className='redBarret3'></section>
-          <section className='redBarret4'></section>
+          <section className='redBarret4' ></section>
           </section>
 
           <img src={widPicture} alt='icone Ordinateur'/>
@@ -65,7 +65,7 @@ function Home() {
         <Link to = {'/aboutme'} className='surfPartHome'
         onMouseOver={() => setOnAbout(true)}
         onMouseLeave={() => setOnAbout(false)}
-        style={{ border: onAbout ? '10px solid #fff' : 'none',  filter: (onAchievements || onResume) ? "grayscale(0.8)" : "grayscale(0)",}}
+        style={{ border: onAbout ? '8px ridge #fff' : '5px ridge #fff',  filter: (onAchievements || onResume) ? "grayscale(0.9)" : "grayscale(0)",}}
         >
           <img src={surfPicture} alt='icone Ordinateur'/>
           <h3>À PROPOS</h3>
@@ -74,10 +74,10 @@ function Home() {
         <Link to = {'/resume'} className='resumePartHome'
         onMouseOver={() => setOnResume(true)}
         onMouseLeave={() => setOnResume(false)}
-        style={{ filter: (onAchievements || onAbout) ? "grayscale(0.8)" : "grayscale(0)",}}
+        style={{ filter: (onAchievements || onAbout) ? "grayscale(0.9)" : "grayscale(0)",}}
         >
-          <section className='yellowBlok1' style={{ border: onResume ? '5px solid #fff' : 'none',}}></section>
-          <section className='yellowBlok2' style={{ border: onResume ? '5px solid #fff' : 'none',}}></section>
+          <section className='yellowBlok1' style={{ border: onResume ? '8px ridge #fff' : '5px ridge #fff'}}></section>
+          <section className='yellowBlok2' style={{ border: onResume ? '8px ridge #fff' : '5px ridge #fff'}}></section>
           <img src={resumePicture} alt='icone Ordinateur'/>
           <h3>C.VITÆ</h3>
         </Link>

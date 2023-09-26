@@ -33,15 +33,15 @@ function Header({colorLogo, colorBackgroundLogo, logoMenu, colorMenu, colorBackg
 
         </section>
 
-        <section className='modalHeader' style={{ display: isOpen ? 'block' : 'none' }}>
+        <section className='modalHeader' style={{ transform: isOpen ? 'translateX(0%)' : 'translateX(100%)' }}>
 
             <FontAwesomeIcon icon={faXmark} onClick={() => setIsOpen(false)} />
             
             <section className='menuModalHeader'>
                 <div>
                     <h3>Networks</h3>
-                    <a href='https://www.linkedin.com/in/simongarbet/' target="_blank" rel="noopener noreferrer">Linkedin</a>
-                    <a href='https://github.com/SimonGarbet' target="_blank" rel="noopener noreferrer">Github</a>
+                    <a className='LinkedinLink' href='https://www.linkedin.com/in/simongarbet/' target="_blank" rel="noopener noreferrer">Linkedin</a>
+                    <a className='GithubLink' href='https://github.com/SimonGarbet' target="_blank" rel="noopener noreferrer">Github</a>
                 </div>
                 <div className='mainMenuModalHeader'>
                     <h3>Menu</h3>

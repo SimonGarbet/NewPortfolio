@@ -83,27 +83,32 @@
             border-radius: 10px 10px 0 0;
             position: relative;
             z-index: 10;
+            animation: movingPic 15s infinite linear;
         }
 
         h3{
             font-size: 40px;
             position: relative;
             z-index: 12;
-            margin-top: 100px;        
+            margin-top: 100px;       
+            text-align: center; 
         }
 
         .widPartHome{
             position: relative;
             z-index: 10;
+            animation: movingBlock 10s infinite linear;
         }
 
         .surfPartHome{
             background: linear-gradient(rgba(127, 153, 178, 0.8) 0 50%, rgba(127, 153, 178, 0));
+            animation: movingBlock 20s infinite linear;
         }
 
         .resumePartHome{
             position: relative;
             z-index: 10;
+            animation: movingBlock 15s infinite linear;
 
             section{
                 width: 100%;
@@ -176,3 +181,33 @@
     }
 }
 
+
+
+
+@keyframes movingBlock { 
+    0% {
+      transform: translateY(0%) scale(100%);
+    }
+
+    50% {
+        transform: translateY(-5%) scale(105%);
+    }
+
+    100%{
+        transform: translateY(0%) scale(100%);
+    }
+  }
+
+  @keyframes movingPic { 
+    0% {
+      transform: translateY(20%) scale(110%);
+    }
+
+    50% {
+        transform: translateY(0%) scale(100%);
+    }
+
+    100%{
+        transform: translateY(20%) scale(110%);
+    }
+  }

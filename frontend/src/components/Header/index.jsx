@@ -18,7 +18,7 @@ function Header({colorLogo, colorBackgroundLogo, logoMenu, colorMenu, colorBackg
   return (
     <div className='headerGlobal'>
 
-        <div className='overlay'  style={{ display: isOpen ? 'block' : 'none' }}></div>
+        <div className='overlay' onClick={() => setIsOpen(false)}  style={{ display: isOpen ? 'block' : 'none' }}></div>
 
         <section className='basicHeader'>
 
@@ -45,9 +45,10 @@ function Header({colorLogo, colorBackgroundLogo, logoMenu, colorMenu, colorBackg
                 </div>
                 <div className='mainMenuModalHeader'>
                     <h3>Menu</h3>
-                    <Link to = {'/achievements'}>What i <strong>do</strong>?</Link>
-                    <Link to = {'/aboutme'}>About <strong>me</strong></Link>
-                    <Link to = {'/resume'}><strong>Resume</strong></Link>
+                    <Link to = {'/achievements'}>Mes <strong>Réalisations</strong></Link>
+                    <Link to = {'/aboutme'}>À Propos</Link>
+                    <Link to = {'/resume'}><strong>C</strong>urriculum <strong>V</strong>itae</Link>
+                    <Link to = {'/404'} style={{fontSize: '35px', fontStyle:"italic"}}>Design page <strong>404 </strong></Link>
                 </div>
             </section>
 

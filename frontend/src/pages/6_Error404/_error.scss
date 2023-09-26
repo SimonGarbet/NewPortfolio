@@ -48,6 +48,10 @@
     margin-top: 100px;
     cursor: pointer;
 
+    a{
+        text-decoration: none;
+    }
+
     .leftToRightProject{
         display: flex;
         gap: 300px;
@@ -75,10 +79,15 @@
     .scroll{
         white-space: nowrap;
         padding: 50px 0;
+        transition: all 0.5s ease-in-out;
+        background: #000;
+        color: #fff;
 
         &:hover{
             background: #fff;
             color: #000;
+            border-top: 10px solid #000;
+            border-bottom: 10px solid #000;
         }
     }
 
@@ -86,6 +95,7 @@
         white-space: nowrap;
         background: #fff;
         padding: 50px 0;
+        transition: all 0.5s ease-in-out;
 
         color: #000;
         background: #fff;
@@ -93,6 +103,8 @@
         &:hover{
             background: #000;
             color: #fff;
+            border-top: 10px solid #fff;
+            border-bottom: 10px solid #fff;
         }
     }
 

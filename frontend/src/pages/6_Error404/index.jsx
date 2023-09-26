@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header';
 
@@ -26,6 +27,7 @@ function Error404() {
 
       <section className='scrollingRedirections'>
 
+      <Link to = {'/achievements'}>
         <div className='scroll'>
           <div className='leftToRightProject'>
               <p className='galleryWord'>PROJECTS</p>
@@ -39,7 +41,9 @@ function Error404() {
               <p className='galleryWord'>PROJECTS</p>
           </div>
         </div>
+        </Link>
 
+        <Link to = {'/aboutme'}>
         <div className='scrollwhite'>
           <div className='rightToLeftAbout'>
               <p className='galleryWord'>ABOUT</p>
@@ -53,7 +57,9 @@ function Error404() {
               <p className='galleryWord'>ABOUT</p>
           </div>
         </div>
+        </Link>
 
+        <Link to = {'/resume'}>
         <div className='scroll'>
           <div className='leftToRightResume'>
               <p className='galleryWord'>RESUME</p>
@@ -67,6 +73,9 @@ function Error404() {
               <p className='galleryWord'>RESUME</p>
           </div>
         </div>
+        </Link>
+
+        
       </section>
 
     </div>

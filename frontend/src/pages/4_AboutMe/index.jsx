@@ -79,7 +79,7 @@ function AboutMe() {
           <p>
             En dehors du monde du travail, je me définis comme un <strong>sportif</strong>. Natation, Surf, Bodysurf (auquel je couple la photographie), 
             course à pied (compétition 10 et 20km), trail, musculation ... Dès que je peux <strong>découvrir</strong> et <strong>apprendre</strong> un nouveau sport je le fais, 
-            <strong>en groupe</strong> avec les potes et aussi en <strong>solo</strong>.
+            <strong> en groupe</strong> et aussi en <strong>solo</strong>.
           </p>
         </div>
 

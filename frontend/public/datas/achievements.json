@@ -1,0 +1,227 @@
+[
+
+    {
+        "id" : "8",
+        "maincolor": "#fff",
+        "type" : "Frontend",
+        "shortTitle" :  "Portfolio Actuel",
+        "longTitle" :  ["SIMON GARBET", "PORTFOLIO"],
+        "techno" : ["ReactJS"],
+        "client": "PROJET PERSONNEL",
+        "année" : "2023",
+        "category" : "PORTFOLIO PERSONNEL",
+        "summarySentence" : "UNE NOUVELLE VITRINE PLUS TECHNIQUE",
+        "challenge" : "",
+        "githubLink" : "https://github.com/SimonGarbet/NewPortfolio",
+        "figmaLink" : "https://www.figma.com/file/w1HoBx5OvHo8LmtVbXOmcX/Portfolio2?type=design&node-id=0-1&mode=design&t=13rm1zPzxBEnu8B3-0",
+        "pictures" : {
+            "Select" : [
+
+            ],
+            "Summary" : [
+
+            ],
+            "Description" : [
+                
+            ]
+        }
+    },
+
+    {
+        "id" : "7",
+        "maincolor": "#eb0052",
+        "type" : "Frontend",
+        "shortTitle" :  "Fever",
+        "longTitle" :  ["FEVER", "EVENT PLATFORM"],
+        "techno" : ["VueJS"],
+        "client": "PROJET PERSONNEL",
+        "année" : "2023",
+        "category" : "REPRODUCTION SITE",
+        "summarySentence" : "UTILISATION D'UN NOUVEAU FRAMEWORK : VUE3",
+        "challenge" : "Le dernier project Openclassrooms était validé, j'avais du temps devant moi pour apprendre les bases d'un nouveau framework sur un projet personnel. Je me suis tourné vers Vue 3 pour réaliser une reproduction du site Fever, site de vente de billet de concerts et d'évènements. Cette reproduction est composée de la page d'accueil, d'une fenêtre modale de sélection de ville, d'une page de sélection d'évènement en fonction de la ville et de la page d'évènement avec une interface de sélection date/nombre de billet dessus.",
+        "githubLink" : "https://github.com/SimonGarbet/FeverVue",
+        "figmaLink" : "https://feverup.com/fr",
+        "pictures" : {
+            "Select" : "/pictures/P9Garbet/Description/P9SE1.jpg",
+            "Summary" : [
+                {"id" :  "DS1", "url" : "/pictures/P9Garbet/Summary/P9SU1.jpg"},
+                {"id" :  "DS2", "url" : "/pictures/P9Garbet/Summary/P9SU2.jpg"},
+                {"id" :  "DS3", "url" : "/pictures/P9Garbet/Summary/P9SU3.jpg"}
+            ],
+            "DescriptionDesk" : [
+                {"id" :  "DD1", "url" : "/pictures/P9Garbet/Description/P9DD1.jpg"},
+                {"id" :  "DD2", "url" : "/pictures/P9Garbet/Description/P9DD2.jpg"},
+                {"id" :  "DD3", "url" : "/pictures/P9Garbet/Description/P9DD3.jpg"},
+                {"id" :  "DD4", "url" : "/pictures/P9Garbet/Description/P9DD4.jpg"}
+            ],
+            "DescriptionMob" : [
+                {"id" :  "DM1", "url" : "/pictures/P9Garbet/Description/P9DM1.jpg"},
+                {"id" :  "DM2", "url" : "/pictures/P9Garbet/Description/P9DM2.jpg"}
+            ]
+        }
+    },
+
+    {
+        "id" : "6",
+        "maincolor": "#ff5925",
+        "type" : "Frontend",
+        "shortTitle" :  "Ancien Portfolio",
+        "longTitle" :  ["PORTFOLIO", "OLD VERSION"],
+        "techno" : ["ReactJS"],
+        "client": "PROJET OPENCLASSROOMS",
+        "année" : "2023",
+        "category" : "PORTFOLIO PERSONNEL",
+        "summarySentence" : "UNE PREMIÈRE VITRINE SUR LE WEB",
+        "challenge" : "",
+        "githubLink" : "https://github.com/SimonGarbet/P8Garbet",
+        "figmaLink" : "",
+        "pictures" : {
+            "Select" : [
+
+            ],
+            "Summary" : [
+
+            ],
+            "Description" : [
+                
+            ]
+        }
+    },
+
+    {
+        "id" : "5",
+        "maincolor": "#dbaa62",
+        "type" : "Backend",
+        "shortTitle" :  "Vieux Grimoire",
+        "longTitle" :  ["MON VIEUX", "GRIMOIRE"],
+        "techno" : ["NodeJS", "MongoDB"],
+        "client": "PROJET OPENCLASSROOMS",
+        "année" : "2023",
+        "category" : "NOTATION DE LIVRES",
+        "summarySentence" : "ON PASSE DE L'AUTRE CÔTÉ DU SITE",
+        "challenge" : "",
+        "githubLink" : "https://github.com/SimonGarbet/P7Garbet",
+        "figmaLink" : "https://www.figma.com/file/1n68sa3kpYLlx693ZwaWVQ/Maquette-Mon-Vieux-Grimoire?type=design&t=ywJtJiZCeatxeHnO-6",
+        "pictures" : {
+            "Select" : [
+
+            ],
+            "Summary" : [
+
+            ],
+            "Description" : [
+                
+            ]
+        }
+    },
+
+    {
+        "id" : "4",
+        "maincolor": "#ff6060",
+        "type" : "Frontend",
+        "shortTitle" :  "Kasa",
+        "longTitle" :  ["KASA", "PROPERTY RENTAL"],
+        "techno" : ["ReactJS"],
+        "client": "PROJET OPENCLASSROOMS",
+        "année" : "2023",
+        "category" : "LOCATION VOYAGE",
+        "summarySentence" : "UTILISATION DE NOTRE PREMIER FRAMEWORK : REACT",
+        "challenge" : "",
+        "githubLink" : "https://github.com/SimonGarbet/P6Garbet",
+        "figmaLink" : "https://www.figma.com/file/N9L6Gm1OWUzojFp9DG0Iw2/Maquette-Kasa?type=design&t=ywJtJiZCeatxeHnO-6",
+        "pictures" : {
+            "Select" : [
+
+            ],
+            "Summary" : [
+
+            ],
+            "Description" : [
+                
+            ]
+        }
+    },
+
+    {
+        "id" : "3",
+        "maincolor": "#000",
+        "type" : "Optimisation",
+        "shortTitle" :  "Nina Carducci",
+        "longTitle" :  ["NINA CARDUCCI", "PHOTOGRAPHER"],
+        "techno" : ["DevTools","Lighthouse"],
+        "client": "PROJET OPENCLASSROOMS",
+        "année" : "2023",
+        "category" : "PORTFOLIO PHOTOGRAPHE",
+        "summarySentence" : "PERFORMANCE, ACCESSIBILITÉ, SEO",
+        "challenge" : "",
+        "githubLink" : "https://github.com/SimonGarbet/P5Garbet",
+        "figmaLink" : "",
+        "pictures" : {
+            "Select" : [
+
+            ],
+            "Summary" : [
+
+            ],
+            "Description" : [
+                
+            ]
+        }
+    },
+
+    {
+        "id" : "2",
+        "maincolor": "#b1663c",
+        "type" : "Frontend",
+        "shortTitle" :  "Sophie Bluel",
+        "longTitle" :  ["SOPHIE BLUEL", "ARCHITECT"],
+        "techno" : ["JAVASCRIPT"],
+        "client": "PROJET OPENCLASSROOMS",
+        "année" : "2023",
+        "category" : "PORTFOLIO D'ARCHITECTE",
+        "summarySentence" : "DÉCOUVERTE DE JAVASCRIPT VANILLA",
+        "challenge" : "",
+        "githubLink" : "https://github.com/SimonGarbet/P3Garbet",
+        "figmaLink" : "https://www.figma.com/file/W7CRXQQyYhde2WM9KHcuqE/Maquette-Sophie-Bluel?type=design&t=ywJtJiZCeatxeHnO-6",
+        "pictures" : {
+            "Select" : [
+
+            ],
+            "Summary" : [
+
+            ],
+            "Description" : [
+                
+            ]
+        }
+    },
+
+    {
+        "id" : "1",
+        "maincolor": "#0165fc",
+        "type" : "Frontend",
+        "shortTitle" :  "Booki",
+        "longTitle" :  ["BOOKI", "TRAVEL RENTAL"],
+        "techno" : ["HTML","CSS"],
+        "client": "PROJET OPENCLASSROOMS",
+        "année" : "2023",
+        "category" : "LOCATION VOYAGE",
+        "summarySentence" : "UNE PREMIÈRE INTÉGRATION DE SITE WEB",
+        "challenge" : "",
+        "githubLink" : "https://github.com/SimonGarbet/SimonGarbet.github.io",
+        "figmaLink" : "https://www.figma.com/file/bGT6BLEUKS8UXSNt2hw7tR/Maquettes-Booki?type=design&node-id=3-0&mode=design&t=0X0YXuDeQsPBL1vc-0",
+        "pictures" : {
+            "Select" : [
+
+            ],
+            "Summary" : [
+
+            ],
+            "Description" : [
+                
+            ]
+        }
+    }
+
+
+]

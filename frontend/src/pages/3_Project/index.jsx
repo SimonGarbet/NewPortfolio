@@ -15,6 +15,7 @@ function Project() {
       logoMenu={logomenuB}
       colorMenu= '#000'
       colorBackgroundMenu = "#fff"
+      menuVisible= "y"
     />
     <h1>Project Page</h1>
     </div>

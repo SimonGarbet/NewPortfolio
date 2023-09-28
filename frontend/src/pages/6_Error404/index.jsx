@@ -17,6 +17,7 @@ function Error404() {
         logoMenu={logomenuW}
         colorMenu= '#fff'
         colorBackgroundMenu = "#000"
+        menuVisible= "y"
       />
 
       <section className='titleError'>

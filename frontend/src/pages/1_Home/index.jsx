@@ -31,6 +31,7 @@ function Home() {
       logoMenu={logomenuB}
       colorMenu= '#000'
       colorBackgroundMenu = "#fff"
+      menuVisible= "y"
       />
 
       <section className='backgroundGIF'>

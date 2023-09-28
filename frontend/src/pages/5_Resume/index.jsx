@@ -15,6 +15,7 @@ function Resume() {
       logoMenu={logomenuB}
       colorMenu= '#000'
       colorBackgroundMenu = "#fff"
+        menuVisible= "y"
       />
     <h1>Resume Page</h1>
     </div>

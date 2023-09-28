@@ -9,7 +9,7 @@ import '../../scss/style.scss';
 
 
 
-function Header({colorLogo, colorBackgroundLogo, logoMenu, colorMenu, colorBackgroundMenu}) {
+function Header({colorLogo, colorBackgroundLogo, logoMenu, colorMenu, colorBackgroundMenu, menuVisible}) {
 
     const [isOpen, setIsOpen] = useState(false)
 
@@ -27,13 +27,15 @@ function Header({colorLogo, colorBackgroundLogo, logoMenu, colorMenu, colorBackg
             <h1>simongarbet<span>.com</span></h1>
         </Link>
         <button onClick={() => setIsOpen(true)} 
-            style={{ display: isOpen ? 'none' : 'flex', color: `${colorMenu}`, background: `${colorBackgroundMenu}` }}>
+            style={{ display: (isOpen || menuVisible === "n") ? 'none' : 'flex', color: `${colorMenu}`, background: `${colorBackgroundMenu}` }}>
             menu <img src={logoMenu} alt='Logo du Menu' />
         </button>
 
         </section>
 
-        <section className='modalHeader' style={{ transform: isOpen ? 'translateX(0%)' : 'translateX(100%)' }}>
+        <section className='modalHeader' 
+        style={{ display : (menuVisible === "y") ? "block" : "none" , transform: isOpen ? `translateX(0%)` : `translateX(100%)` }}
+        >
 
             <FontAwesomeIcon icon={faXmark} onClick={() => setIsOpen(false)} />
             

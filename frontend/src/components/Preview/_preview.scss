@@ -1,0 +1,123 @@
+
+
+
+.globalPreview{
+    width: 40vw;
+    height: 100%;
+    position: relative;
+    overflow-y: hidden;
+    
+
+    .titlePreview{
+        height: 60%;
+        transition: ease-in-out 0.5s;
+       
+
+        svg{
+            margin-bottom: 50px;
+        }
+    
+        h2{
+            font-family: "Gallery Modern";
+            font-size: 60px;
+        }
+    
+        p{
+            font-size: 20px;
+        }
+    }
+
+
+
+    .picPreviewPart{
+        height: 37%;
+        transform: translateY(-10vh);
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        transition: ease-in-out 0.5s;
+
+        .cutterPic{
+            position: relative;
+            height: 100%;
+            width: 237px;
+
+            overflow-y: hidden;
+            border-radius: 42px;
+
+        .iphoneContainer{
+            width: 237px;
+            height: 100%;
+        }
+
+        .picAchievement{
+            width: 215px;
+
+            position: absolute;
+            top: 0;
+            left: 10px;
+            z-index: -1;
+            border-radius: 30px;
+
+            animation: scrollingSelect1 25s linear infinite;
+        }
+
+        }
+
+    }
+
+
+}
+
+.scrollBar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #000;
+    color: #fff;
+    padding: 5px 0;
+
+    p{
+        font-size: 30px;
+    }
+}
+
+
+@keyframes scrollingSelect1 { 
+    0% {
+      transform: translateY(0%);
+    }
+
+    15%{
+        transform: translateY(-10%);
+    }
+
+    25% {
+        transform: translateY(-40%);
+    }
+
+    35%{
+        transform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(-20%);
+    }
+
+    75%{
+        transform: translateY(-70%);
+    }
+
+    85%{
+        transform: translateY(-20%);
+    }
+
+    100%{
+        transform: translateY(0%);
+    }
+  }

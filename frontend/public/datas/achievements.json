@@ -15,9 +15,7 @@
         "githubLink" : "https://github.com/SimonGarbet/NewPortfolio",
         "figmaLink" : "https://www.figma.com/file/w1HoBx5OvHo8LmtVbXOmcX/Portfolio2?type=design&node-id=0-1&mode=design&t=13rm1zPzxBEnu8B3-0",
         "pictures" : {
-            "Select" : [
-
-            ],
+            "Select" : "",
             "Summary" : [
 
             ],
@@ -42,7 +40,7 @@
         "githubLink" : "https://github.com/SimonGarbet/FeverVue",
         "figmaLink" : "https://feverup.com/fr",
         "pictures" : {
-            "Select" : "/pictures/P9Garbet/Description/P9SE1.jpg",
+            "Select" : "/pictures/P9Garbet/Select/P9SE1.jpg",
             "Summary" : [
                 {"id" :  "DS1", "url" : "/pictures/P9Garbet/Summary/P9SU1.jpg"},
                 {"id" :  "DS2", "url" : "/pictures/P9Garbet/Summary/P9SU2.jpg"},
@@ -76,9 +74,7 @@
         "githubLink" : "https://github.com/SimonGarbet/P8Garbet",
         "figmaLink" : "",
         "pictures" : {
-            "Select" : [
-
-            ],
+            "Select" : "/pictures/P8Garbet/Select/P8SE1.jpg",
             "Summary" : [
 
             ],
@@ -103,9 +99,7 @@
         "githubLink" : "https://github.com/SimonGarbet/P7Garbet",
         "figmaLink" : "https://www.figma.com/file/1n68sa3kpYLlx693ZwaWVQ/Maquette-Mon-Vieux-Grimoire?type=design&t=ywJtJiZCeatxeHnO-6",
         "pictures" : {
-            "Select" : [
-
-            ],
+            "Select" : "/pictures/P7Garbet/Select/P7SE1.jpg",
             "Summary" : [
 
             ],
@@ -130,9 +124,7 @@
         "githubLink" : "https://github.com/SimonGarbet/P6Garbet",
         "figmaLink" : "https://www.figma.com/file/N9L6Gm1OWUzojFp9DG0Iw2/Maquette-Kasa?type=design&t=ywJtJiZCeatxeHnO-6",
         "pictures" : {
-            "Select" : [
-
-            ],
+            "Select" : "/pictures/P6Garbet/Select/P6SE1.jpg",
             "Summary" : [
 
             ],
@@ -157,9 +149,7 @@
         "githubLink" : "https://github.com/SimonGarbet/P5Garbet",
         "figmaLink" : "",
         "pictures" : {
-            "Select" : [
-
-            ],
+            "Select" : "/pictures/P5Garbet/Select/P5SE1.jpg",
             "Summary" : [
 
             ],
@@ -184,9 +174,7 @@
         "githubLink" : "https://github.com/SimonGarbet/P3Garbet",
         "figmaLink" : "https://www.figma.com/file/W7CRXQQyYhde2WM9KHcuqE/Maquette-Sophie-Bluel?type=design&t=ywJtJiZCeatxeHnO-6",
         "pictures" : {
-            "Select" : [
-
-            ],
+            "Select" : "/pictures/P3Garbet/Select/P3SE1.jpg",
             "Summary" : [
 
             ],
@@ -211,9 +199,7 @@
         "githubLink" : "https://github.com/SimonGarbet/SimonGarbet.github.io",
         "figmaLink" : "https://www.figma.com/file/bGT6BLEUKS8UXSNt2hw7tR/Maquettes-Booki?type=design&node-id=3-0&mode=design&t=0X0YXuDeQsPBL1vc-0",
         "pictures" : {
-            "Select" : [
-
-            ],
+            "Select" : "/pictures/P2Garbet/Select/P2SE1.jpg",
             "Summary" : [
 
             ],

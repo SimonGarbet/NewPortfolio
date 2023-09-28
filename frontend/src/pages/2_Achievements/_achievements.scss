@@ -1,0 +1,74 @@
+
+.globalAchievements{
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-x: hidden;
+
+   
+    
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+
+
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.blocHorizontal{
+    display: flex;
+    flex-direction: row;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+
+    .basicHeader{
+        width: 90vw;
+        top: 0;
+        left: 5vw;  
+        transform: translateX(0);
+        padding-top: 30px;
+        overflow: auto;
+    }
+
+
+
+
+    .allAchievements{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+
+        text-align: center;
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+    }
+
+    .endAchievements{
+        width: 40vw;
+        height: 100vh;
+        filter: brightness(0.75);
+        position: relative;
+        padding-top: 30vh;
+
+        h2{
+            font-size: 80px;
+            font-family: "Gallery Modern";
+        }
+
+        h3{
+            font-size: 35px;
+            font-weight: 400;
+        }
+    }
+
+}

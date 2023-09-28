@@ -1,15 +1,16 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
-import Error from '../6_Error404/index'
+import Error from '../6_Error404/index';
 
-import Preview from '../../components/Preview'
+import Preview from '../../components/Preview';
 
 import Header from '../../components/Header';
 
 import logomenuB from '../../assets/logomenuB.png';
 
-import '../../scss/style.scss'
+import '../../scss/style.scss';
 
 function Achievements() {
 
@@ -71,15 +72,10 @@ function Achievements() {
               imageSelect = {project.pictures.Select}
               />
             ))}
-          <div className='endAchievements'>
-            <h2>DÉBUT DE FORMATION</h2>
-            <h3>DÉVELOPPEUR WEB</h3>
-
-            <div className='scrollBar'>
-            <p>(SCROLL)</p>
-            <p>(SCROLL)</p>
-            </div>
-          </div>
+          <Link to = {`/aboutme`} className='endAchievements'>
+            <h2>DÉCOUVREZ MON PROFIL</h2>
+            <h3>SIMON GARBET</h3>
+          </Link>
 
           </div> 
         )}

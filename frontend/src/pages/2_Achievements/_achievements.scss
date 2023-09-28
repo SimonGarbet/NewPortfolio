@@ -56,12 +56,12 @@
     .endAchievements{
         width: 40vw;
         height: 100vh;
-        filter: brightness(0.75);
         position: relative;
-        padding-top: 30vh;
+        padding-top: 40vh;
+        
 
         h2{
-            font-size: 80px;
+            font-size: 70px;
             font-family: "Gallery Modern";
         }
 
@@ -71,4 +71,8 @@
         }
     }
 
+}
+
+#root{
+    height: 100vh;
 }

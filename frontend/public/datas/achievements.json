@@ -5,7 +5,7 @@
         "maincolor": "#fff",
         "type" : "Frontend",
         "shortTitle" :  "Portfolio Actuel",
-        "longTitle" :  ["SIMON GARBET", "PORTFOLIO"],
+        "longTitle" :  ["SIMON GARBET", "NEW PORTFOLIO"],
         "techno" : ["ReactJS"],
         "client": "PROJET PERSONNEL",
         "year" : "2023",
@@ -14,13 +14,23 @@
         "challenge" : "",
         "githubLink" : "https://github.com/SimonGarbet/NewPortfolio",
         "figmaLink" : "https://www.figma.com/file/w1HoBx5OvHo8LmtVbXOmcX/Portfolio2?type=design&node-id=0-1&mode=design&t=13rm1zPzxBEnu8B3-0",
+        "actualSite" : "",
         "pictures" : {
-            "Select" : "",
+            "Select" : "/pictures/P10Garbet/Select/P10SE1.jpg",
             "Summary" : [
-
+                {"id" :  "DS1", "url" : "/pictures/P10Garbet/Summary/P10SU1.png"},
+                {"id" :  "DS2", "url" : "/pictures/P10Garbet/Summary/P10SU2.jpg"},
+                {"id" :  "DS3", "url" : "/pictures/P10Garbet/Summary/P10SU3.png"}
             ],
-            "Description" : [
-                
+            "DescriptionDesk" : [
+                {"id" :  "DD1", "url" : "/pictures/P10Garbet/Description/P10DD1.jpg"},
+                {"id" :  "DD2", "url" : "/pictures/P10Garbet/Description/P10DD2.jpg"},
+                {"id" :  "DD3", "url" : "/pictures/P10Garbet/Description/P10DD3.jpg"},
+                {"id" :  "DD4", "url" : "/pictures/P10Garbet/Description/P10DD4.jpg"}
+            ],
+            "DescriptionMob" : [
+                {"id" :  "DM1", "url" : "/pictures/P10Garbet/Description/P10DM1.jpg"},
+                {"id" :  "DM2", "url" : "/pictures/P10Garbet/Description/P10DM2.jpg"}
             ]
         }
     },
@@ -38,7 +48,8 @@
         "summarySentence" : "UTILISATION D'UN NOUVEAU FRAMEWORK : VUE3",
         "challenge" : "Le dernier project Openclassrooms était validé, j'avais du temps devant moi pour apprendre les bases d'un nouveau framework sur un projet personnel. Je me suis tourné vers Vue 3 pour réaliser une reproduction du site Fever, site de vente de billet de concerts et d'évènements. Cette reproduction est composée de la page d'accueil, d'une fenêtre modale de sélection de ville, d'une page de sélection d'évènement en fonction de la ville et de la page d'évènement avec une interface de sélection date/nombre de billet dessus.",
         "githubLink" : "https://github.com/SimonGarbet/FeverVue",
-        "figmaLink" : "https://feverup.com/fr",
+        "figmaLink" : "",
+        "actualSite" : "https://feverup.com/fr",
         "pictures" : {
             "Select" : "/pictures/P9Garbet/Select/P9SE1.jpg",
             "Summary" : [
@@ -73,13 +84,23 @@
         "challenge" : "",
         "githubLink" : "https://github.com/SimonGarbet/P8Garbet",
         "figmaLink" : "",
+        "actualSite" : "",
         "pictures" : {
             "Select" : "/pictures/P8Garbet/Select/P8SE1.jpg",
             "Summary" : [
-
+                {"id" :  "DS1", "url" : "/pictures/P8Garbet/Summary/P8SU1.jpg"},
+                {"id" :  "DS2", "url" : "/pictures/P8Garbet/Summary/P8SU2.jpg"},
+                {"id" :  "DS3", "url" : "/pictures/P8Garbet/Summary/P8SU3.jpg"}
             ],
-            "Description" : [
-                
+            "DescriptionDesk" : [
+                {"id" :  "DD1", "url" : "/pictures/P8Garbet/Description/P8DD1.jpg"},
+                {"id" :  "DD2", "url" : "/pictures/P8Garbet/Description/P8DD2.jpg"},
+                {"id" :  "DD3", "url" : "/pictures/P8Garbet/Description/P8DD3.jpg"},
+                {"id" :  "DD4", "url" : "/pictures/P8Garbet/Description/P8DD4.jpg"}
+            ],
+            "DescriptionMob" : [
+                {"id" :  "DM1", "url" : "/pictures/P8Garbet/Description/P8DM1.jpg"},
+                {"id" :  "DM2", "url" : "/pictures/P8Garbet/Description/P8DM2.jpg"}
             ]
         }
     },
@@ -98,13 +119,22 @@
         "challenge" : "",
         "githubLink" : "https://github.com/SimonGarbet/P7Garbet",
         "figmaLink" : "https://www.figma.com/file/1n68sa3kpYLlx693ZwaWVQ/Maquette-Mon-Vieux-Grimoire?type=design&t=ywJtJiZCeatxeHnO-6",
+        "actualSite" : "",
         "pictures" : {
             "Select" : "/pictures/P7Garbet/Select/P7SE1.jpg",
             "Summary" : [
-
+                {"id" :  "DS1", "url" : "/pictures/P7Garbet/Summary/P7SU1.jpg"},
+                {"id" :  "DS2", "url" : "/pictures/P7Garbet/Summary/P7SU2.jpg"},
+                {"id" :  "DS3", "url" : "/pictures/P7Garbet/Summary/P7SU3.jpg"}
             ],
-            "Description" : [
-                
+            "DescriptionDesk" : [
+                {"id" :  "DD1", "url" : "/pictures/P7Garbet/Description/P7DD1.jpg"},
+                {"id" :  "DD1", "url" : "/pictures/P7Garbet/Description/P7DD2.jpg"},
+                {"id" :  "DD1", "url" : "/pictures/P7Garbet/Description/P7DD3.jpg"}
+            ],
+            "DescriptionMob" : [
+                {"id" :  "DM1", "url" : "/pictures/P7Garbet/Description/P7DM1.jpg"},
+                {"id" :  "DM2", "url" : "/pictures/P7Garbet/Description/P7DM2.jpg"}
             ]
         }
     },
@@ -123,13 +153,22 @@
         "challenge" : "",
         "githubLink" : "https://github.com/SimonGarbet/P6Garbet",
         "figmaLink" : "https://www.figma.com/file/N9L6Gm1OWUzojFp9DG0Iw2/Maquette-Kasa?type=design&t=ywJtJiZCeatxeHnO-6",
+        "actualSite" : "",
         "pictures" : {
             "Select" : "/pictures/P6Garbet/Select/P6SE1.jpg",
             "Summary" : [
-
+                {"id" :  "DS1", "url" : "/pictures/P6Garbet/Summary/P6SU1.jpg"},
+                {"id" :  "DS2", "url" : "/pictures/P6Garbet/Summary/P6SU2.jpg"},
+                {"id" :  "DS3", "url" : "/pictures/P6Garbet/Summary/P6SU3.jpg"}
             ],
-            "Description" : [
-                
+            "DescriptionDesk" : [
+                {"id" :  "DD1", "url" : "/pictures/P6Garbet/Description/P6DD1.jpg"},
+                {"id" :  "DD1", "url" : "/pictures/P6Garbet/Description/P6DD2.jpg"},
+                {"id" :  "DD1", "url" : "/pictures/P6Garbet/Description/P6DD3.jpg"}
+            ],
+            "DescriptionMob" : [
+                {"id" :  "DM1", "url" : "/pictures/P6Garbet/Description/P6DM1.jpg"},
+                {"id" :  "DM2", "url" : "/pictures/P6Garbet/Description/P6DM1.jpg"}
             ]
         }
     },
@@ -148,13 +187,20 @@
         "challenge" : "",
         "githubLink" : "https://github.com/SimonGarbet/P5Garbet",
         "figmaLink" : "",
+        "actualSite" : "",
         "pictures" : {
             "Select" : "/pictures/P5Garbet/Select/P5SE1.jpg",
             "Summary" : [
-
+                {"id" :  "DS1", "url" : "/pictures/P5Garbet/Summary/P5SU1.jpg"},
+                {"id" :  "DS2", "url" : "/pictures/P5Garbet/Summary/P5SU2.jpg"},
+                {"id" :  "DS3", "url" : "/pictures/P5Garbet/Summary/P5SU3.jpg"}
             ],
-            "Description" : [
-                
+            "DescriptionDesk" : [
+                {"id" :  "DD1", "url" : "/pictures/P5Garbet/Description/P5DD1.jpg"}
+            ],
+            "DescriptionMob" : [
+                {"id" :  "DM1", "url" : "/pictures/P5Garbet/Description/P5DM1.jpg"},
+                {"id" :  "DM2", "url" : "/pictures/P5Garbet/Description/P5DM1.jpg"}
             ]
         }
     },
@@ -173,13 +219,22 @@
         "challenge" : "",
         "githubLink" : "https://github.com/SimonGarbet/P3Garbet",
         "figmaLink" : "https://www.figma.com/file/W7CRXQQyYhde2WM9KHcuqE/Maquette-Sophie-Bluel?type=design&t=ywJtJiZCeatxeHnO-6",
+        "actualSite" : "",
         "pictures" : {
             "Select" : "/pictures/P3Garbet/Select/P3SE1.jpg",
             "Summary" : [
-
+                {"id" :  "DS1", "url" : "/pictures/P3Garbet/Summary/P3SU1.jpg"},
+                {"id" :  "DS2", "url" : "/pictures/P3Garbet/Summary/P3SU2.jpg"},
+                {"id" :  "DS3", "url" : "/pictures/P3Garbet/Summary/P3SU3.jpg"}
             ],
-            "Description" : [
-                
+            "DescriptionDesk" : [
+                {"id" :  "DD1", "url" : "/pictures/P3Garbet/Description/P3DD1.jpg"},
+                {"id" :  "DD1", "url" : "/pictures/P3Garbet/Description/P3DD2.jpg"},
+                {"id" :  "DD1", "url" : "/pictures/P3Garbet/Description/P3DD3.jpg"}
+            ],
+            "DescriptionMob" : [
+                {"id" :  "DM1", "url" : "/pictures/P3Garbet/Description/P3DM1.jpg"},
+                {"id" :  "DM2", "url" : "/pictures/P3Garbet/Description/P3DM1.jpg"}
             ]
         }
     },
@@ -198,13 +253,20 @@
         "challenge" : "",
         "githubLink" : "https://github.com/SimonGarbet/SimonGarbet.github.io",
         "figmaLink" : "https://www.figma.com/file/bGT6BLEUKS8UXSNt2hw7tR/Maquettes-Booki?type=design&node-id=3-0&mode=design&t=0X0YXuDeQsPBL1vc-0",
+        "actualSite" : "",
         "pictures" : {
             "Select" : "/pictures/P2Garbet/Select/P2SE1.jpg",
             "Summary" : [
-
+                {"id" :  "DS1", "url" : "/pictures/P2Garbet/Summary/P2SU1.jpg"},
+                {"id" :  "DS2", "url" : "/pictures/P2Garbet/Summary/P2SU2.jpg"},
+                {"id" :  "DS3", "url" : "/pictures/P2Garbet/Summary/P2SU3.jpg"}
             ],
-            "Description" : [
-                
+            "DescriptionDesk" : [
+                {"id" :  "DD1", "url" : "/pictures/P2Garbet/Description/P2DD1.jpg"}
+            ],
+            "DescriptionMob" : [
+                {"id" :  "DM1", "url" : "/pictures/P2Garbet/Description/P2DM1.jpg"},
+                {"id" :  "DM2", "url" : "/pictures/P2Garbet/Description/P2DM1.jpg"}
             ]
         }
     }

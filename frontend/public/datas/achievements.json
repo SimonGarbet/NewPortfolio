@@ -129,8 +129,8 @@
             ],
             "DescriptionDesk" : [
                 {"id" :  "DD1", "url" : "/pictures/P7Garbet/Description/P7DD1.jpg"},
-                {"id" :  "DD1", "url" : "/pictures/P7Garbet/Description/P7DD2.jpg"},
-                {"id" :  "DD1", "url" : "/pictures/P7Garbet/Description/P7DD3.jpg"}
+                {"id" :  "DD2", "url" : "/pictures/P7Garbet/Description/P7DD2.jpg"},
+                {"id" :  "DD3", "url" : "/pictures/P7Garbet/Description/P7DD3.jpg"}
             ],
             "DescriptionMob" : [
                 {"id" :  "DM1", "url" : "/pictures/P7Garbet/Description/P7DM1.jpg"},
@@ -163,8 +163,8 @@
             ],
             "DescriptionDesk" : [
                 {"id" :  "DD1", "url" : "/pictures/P6Garbet/Description/P6DD1.jpg"},
-                {"id" :  "DD1", "url" : "/pictures/P6Garbet/Description/P6DD2.jpg"},
-                {"id" :  "DD1", "url" : "/pictures/P6Garbet/Description/P6DD3.jpg"}
+                {"id" :  "DD2", "url" : "/pictures/P6Garbet/Description/P6DD2.jpg"},
+                {"id" :  "DD3", "url" : "/pictures/P6Garbet/Description/P6DD3.jpg"}
             ],
             "DescriptionMob" : [
                 {"id" :  "DM1", "url" : "/pictures/P6Garbet/Description/P6DM1.jpg"},
@@ -229,8 +229,8 @@
             ],
             "DescriptionDesk" : [
                 {"id" :  "DD1", "url" : "/pictures/P3Garbet/Description/P3DD1.jpg"},
-                {"id" :  "DD1", "url" : "/pictures/P3Garbet/Description/P3DD2.jpg"},
-                {"id" :  "DD1", "url" : "/pictures/P3Garbet/Description/P3DD3.jpg"}
+                {"id" :  "DD2", "url" : "/pictures/P3Garbet/Description/P3DD2.jpg"},
+                {"id" :  "DD3", "url" : "/pictures/P3Garbet/Description/P3DD3.jpg"}
             ],
             "DescriptionMob" : [
                 {"id" :  "DM1", "url" : "/pictures/P3Garbet/Description/P3DM1.jpg"},

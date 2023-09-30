@@ -1,8 +1,6 @@
 .globalProject{
 
     transform: translateY(200px);
-    max-width: 2000px;
-    margin: 0 auto;
 
     a{
         text-decoration: none;
@@ -13,6 +11,7 @@
 .titleProject{
     text-align: center;
     width: 90%;
+    max-width: 2000px;
     margin: 0 auto;
 
     h2{
@@ -31,6 +30,7 @@
 
 .switchProject{
     width: 90%;
+    max-width: 2000px;
     margin: 0 auto;
     margin-top: 100px;
     display: flex;
@@ -60,15 +60,17 @@
     display: flex;
     justify-content: center;
     width: 90%;
+    max-width: 2000px;
     margin: 0 auto;
     margin-top: 70px;
     
 
     img{
-        width: 35%;
+        width: 32%;
         border: #000 solid 25px;
         border-radius: 20px;
         background-color:  #000;
+        object-fit: cover;
     }
 
     .DS1{
@@ -131,8 +133,9 @@
     justify-content: space-between;
     text-align: center;
     width: 90%;
+    max-width: 2000px;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 150px;
 
     p{
         font-size: 18px;
@@ -148,6 +151,7 @@
     margin: 150px auto;
 
     width: 90%;
+    max-width: 2000px;
 
         h4{
             text-align: center;
@@ -206,6 +210,8 @@
 
     img{
         width: 85%;
+        max-width: 2000px;
+        margin: 0 auto;
         height: 1200px;
         object-fit: cover;
         object-position: top;

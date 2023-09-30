@@ -151,7 +151,7 @@
 
     h4{
         font-size: 32px;
-        margin-bottom: 65px;
+        margin-bottom: 45px;
 
         svg{
             width: 70px;
@@ -176,7 +176,6 @@
             padding: 20px 10px;
             height: 100px;
             box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-
         }
 
         .orangeBox{
@@ -250,7 +249,7 @@
     }
 
     50%{
-        transform: scale(1.03) translateY(-40px);
+        transform: scale(1.02) translateY(-40px);
     }
 
     100%{
@@ -294,6 +293,7 @@
 
     .sentenceTools{
         font-size: 30px;
+        padding-bottom: 10px;
         border-bottom: dotted 2px #000;
     }
 
@@ -347,15 +347,15 @@
         }
 
         .arrow1{
-            animation: animArrow1 infinite linear 2s;
+            animation: animArrow1 infinite linear 1.5s;
         }
 
         .arrow2{
-            animation: animArrow2 infinite linear 2s;
+            animation: animArrow2 infinite linear 1.5s;
         }
 
         .arrow3{
-            animation: animArrow3 infinite linear 2s;
+            animation: animArrow3 infinite linear 1.5s;
         }
 
         section{

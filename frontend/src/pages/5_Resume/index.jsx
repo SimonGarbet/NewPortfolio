@@ -42,7 +42,7 @@ function Resume() {
       />
 
 <div className = 'downloadPDF' >
-<button onClick={onButtonClick}>Exporter en PDF</button>
+<button onClick={onButtonClick}>Export CV en .PDF</button>
 </div>
 
       <div className='globalResume'>

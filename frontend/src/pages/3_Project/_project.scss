@@ -325,6 +325,50 @@
     }
   }
 
+  .prevProjectRedirection{
+
+    .leftToRightProject{
+        display: flex;
+        gap: 300px;
+
+        animation: PrevProjectSlide 10s infinite linear;
+    }
+
+    .scroll{
+        white-space: nowrap;
+        padding: 30px 0;
+        color: #fff;
+        background: #000;
+
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+
+    .galleryWord{
+        font-family: 'Gallery Modern';
+        font-size: 80px;
+    }
+
+    .poppinsWord{
+        font-size: 70px;
+        text-decoration: underline;
+    }
+  }
+
+
+
+  @keyframes  PrevProjectSlide {
+    from {
+        transform: translateX(-12px)
+    }
+
+    to {
+        transform: translateX(-2372px)
+    }
+
+}
+
 
   .nextProjectRedirection{
 
@@ -337,12 +381,10 @@
 
     .scroll{
         white-space: nowrap;
-        padding: 50px 0;
+        padding: 30px 0;
         color: #000;
 
         &:hover{
-            background: #fff;
-            color: #000;
             transform: scale(1.05);
         }
     }

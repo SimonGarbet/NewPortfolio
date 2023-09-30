@@ -156,6 +156,21 @@ calculRedirect()
             ))}
         </section>
 
+
+        <Link className='prevProjectRedirection' to = {`/achievements/${idPrev}`}>
+        <div className='scroll'>
+          <div className='leftToRightProject'>
+              <p className='galleryWord'>RÉALISATION PRÉCÉDENTE</p>
+              <p className='poppinsWord'>RÉALISATION PRÉCÉDENTE</p>
+              <p className='galleryWord'>RÉALISATION PRÉCÉDENTE</p>
+              <p className='poppinsWord'>RÉALISATION PRÉCÉDENTE</p>
+              <p className='galleryWord'>RÉALISATION PRÉCÉDENTE</p>
+              <p className='poppinsWord'>RÉALISATION PRÉCÉDENTE</p>
+              <p className='galleryWord'>RÉALISATION PRÉCÉDENTE</p>
+          </div>
+        </div>
+        </Link>
+
         <Link className='nextProjectRedirection' to = {`/achievements/${idNext}`}>
         <div className='scroll'>
           <div className='leftToRightProject'>

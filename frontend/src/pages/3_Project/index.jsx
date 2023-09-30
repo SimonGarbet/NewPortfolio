@@ -31,7 +31,6 @@ function Project() {
         const projectList = await response.json()
         setProjectList(projectList)
         setProjectTarget(projectList.filter((profile) => profile.id === idProject.id))
-        console.log(projectTarget)
       } catch (err) {
         console.log('===== error =====', err)
         setError(true)
@@ -137,8 +136,8 @@ calculRedirect()
 
         <section className='screenDeskProject'>
             {projectTarget[0].pictures.DescriptionDesk.map((picture) =>(
-              <div className={picture.id} >
-              <img key={picture.id} src={picture.url} alt='Screenshots desktop de chaque page du site web développé' />
+              <div key={picture.id} className={picture.id} >
+              <img src={picture.url} alt='Screenshots desktop de chaque page du site web développé' />
               </div>
             ))}
         </section>
@@ -147,8 +146,8 @@ calculRedirect()
         style = {{ background: (projectTarget[0].pictures.DescriptionDesk.length % 2 === 0) ? '#000' :  '#fff',}}
         >
             {projectTarget[0].pictures.DescriptionMob.map((picture) =>(
-              <div className="containerScreenMob">
-              <div key={picture.id} className='cutterPic'>
+              <div key={picture.id}  className="containerScreenMob">
+              <div className='cutterPic'>
               <img className='iphoneContainer' src={iPhone} alt="Prévisualisation du site web sur un Iphone"/>
               <img className= "screenMobileProject" src={picture.url} alt='Screenshots mobile de chaque page du site web développé' />
               </div>

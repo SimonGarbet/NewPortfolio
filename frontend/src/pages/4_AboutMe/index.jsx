@@ -54,7 +54,7 @@ function AboutMe() {
           </div>
 
           <div>
-            <h4>7+</h4>
+            <h4>8+</h4>
             <p>RÉALISATIONS</p>
           </div>
 

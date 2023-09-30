@@ -2,6 +2,7 @@
 @import '../pages/2_Achievements/achievements';
 @import '../pages/3_Project/project';
 @import '../pages/4_AboutMe/aboutme';
+@import '../pages/5_Resume/resume';
 @import '../pages/6_Error404/error';
 
 
@@ -52,5 +53,7 @@
     //border: red 1px solid;
   }
 
-
+  #root{
+    height: 100vh;
+}
 

@@ -1,5 +1,9 @@
+
+
+
 .titleAbout{
     width: 90%;
+    max-width: 2000px;
     text-align: center;
 
     margin: 0 auto;
@@ -32,7 +36,8 @@
 .devSection{
 
     width: 70%;
-    margin: 0 auto;
+    max-width: 2000px;
+    margin: 0px auto;
 
     .devDescription{
 
@@ -90,9 +95,9 @@
 
 
 .sportySection{
-
-    margin: 200px 0;
-
+    
+    max-width: 2000px;
+    margin: 150px auto;
 
 
     .sportyDescription{
@@ -155,7 +160,8 @@
 .gamerSection{
 
     margin: 200px 0;
-
+    max-width: 2000px;
+    margin: 150px auto;
 
 
     .gamerDescription{

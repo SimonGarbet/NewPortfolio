@@ -47,10 +47,10 @@ function Header({colorLogo, colorBackgroundLogo, logoMenu, colorMenu, colorBackg
                 </div>
                 <div className='mainMenuModalHeader'>
                     <h3>Menu</h3>
-                    <Link to = {'/achievements'}><strong>R</strong>éalisations</Link>
-                    <Link to = {'/aboutme'}><strong>À</strong> Propos</Link>
-                    <Link to = {'/resume'}><strong>C</strong>urriculum/<strong>V</strong>itæ</Link>
-                    <Link to = {'/404'} style={{fontSize: '30px'}}><strong>404</strong> Design</Link>
+                    <Link to = {'/achievements'}><strong>R</strong>ÉALISATIONS</Link>
+                    <Link to = {'/aboutme'}><strong>À</strong> PROPOS</Link>
+                    <Link to = {'/resume'}><strong>C</strong>URRICULUM/<strong>V</strong>ITÆ</Link>
+                    <Link to = {'/404'} style={{fontSize: '30px'}}><strong>404</strong> DESIGN</Link>
                 </div>
             </section>
 

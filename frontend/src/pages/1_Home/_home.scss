@@ -248,3 +248,115 @@
       font-size: 20px;  
     }
 }
+
+
+@media (max-width : 1000px){
+    
+    .backgroundGIF {
+            top: -400px;
+            right: -300px;
+            height: 700px;
+            width: 700px;
+           
+    
+        .blackHoleHome{
+            height: 500px;
+            width: 500px;
+        }
+       
+    }
+    
+    
+    
+    .titleHome{
+        font-size: 70px;
+        transform: translateY(-10%);
+    
+    }
+    
+    
+    
+    
+    .menuHome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+            a{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                height: 15vh;
+                width: 80%;
+            }
+    
+            img{
+                height: 90%;
+                border-radius: 10px 10px 0 0;
+            }
+    
+            h3{
+                width: 50%;
+                margin-top: 0px;
+                font-size: 35px;
+    
+                &::before{
+                  display: none;
+                }
+            }
+    
+            .allBarret{
+                gap: 5%;
+        
+                .redBarret1{
+                    width: 20%;
+                }
+        
+                .redBarret2{
+                    width: 35%;
+                    transform: rotate(0);
+                }
+        
+                .redBarret3{
+                    width: 10%;
+                    transform: rotate(0);
+                }
+        
+                .redBarret4{
+                    width: 20%;
+                    transform: rotate(0);
+                }
+            }
+    
+            .resumePartHome{
+        
+                .yellowBlok1{
+
+                    height: 35%;
+    
+                    &::before{
+                       display: none;
+                    }
+                }
+
+                .yellowBlok2{
+
+                    height: 35%;
+                }
+            }
+        
+    
+    }
+
+    .clickHome{
+
+        p{
+          font-size: 15px;  
+        }
+    }
+
+
+
+}

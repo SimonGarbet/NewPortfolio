@@ -23,7 +23,7 @@ function Header({colorLogo, colorBackgroundLogo, logoMenu, colorMenu, colorBackg
         <section className='basicHeader'>
 
         <Link to = {'/'} className='homePageLink' 
-            style={{color: isOpen ? 'white' : `${colorLogo}`, background: isOpen ? 'none' : `${colorBackgroundLogo}`}}>
+            style={{color: isOpen ? '#fff' : `${colorLogo}`, background: isOpen ? 'none' : `${colorBackgroundLogo}`}}>
             <h1>simongarbet<span>.com</span></h1>
         </Link>
         <button onClick={() => setIsOpen(true)} 
@@ -31,13 +31,13 @@ function Header({colorLogo, colorBackgroundLogo, logoMenu, colorMenu, colorBackg
             menu <img src={logoMenu} alt='Logo du Menu' />
         </button>
 
+        <FontAwesomeIcon style={{ display : isOpen ? "block" : "none"}} icon={faXmark} onClick={() => setIsOpen(false)} />
+
         </section>
 
         <section className='modalHeader' 
         style={{ display : (menuVisible === "y") ? "block" : "none" , transform: isOpen ? `translateX(0%)` : `translateX(100%)` }}
-        >
-
-            <FontAwesomeIcon icon={faXmark} onClick={() => setIsOpen(false)} />
+        >        
             
             <section className='menuModalHeader'>
                 <div>

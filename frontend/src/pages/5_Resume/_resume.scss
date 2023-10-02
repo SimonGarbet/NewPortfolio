@@ -489,3 +489,123 @@
 
 
 }
+
+
+@media (max-width: 1000px) { 
+
+    .downloadPDF{
+    
+        button{
+        width: 50%;
+        font-size: 18px;
+    }
+    }
+    
+    
+    .globalResume{
+        border: 10px solid rgba($color: #73899f, $alpha: 0.6);
+    
+    
+        &::before{
+         display: none;
+        }
+    
+        
+        &::after{
+            display: none;
+        }
+    
+        
+    }
+    
+    
+    .headResume{
+
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+
+        margin: 70px;
+        text-align: center;
+    }
+    
+    .leftSideHeadResume{
+    
+        .titleResume{
+    
+            margin-top: 30px;
+
+            h2{
+    
+                &::after{
+                    width: 55vw;
+                }
+            }
+        }
+    
+        .generalInfoResume{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            span, a{
+                font-size: 18px;
+    
+                svg{
+                    width: 30px;
+                    margin-right: 10px;
+                }
+            }
+    
+        }
+    
+    }
+    
+    
+    .picResume{
+        img{
+            width: 250px;
+            height: 250px;
+        }
+    }
+    
+    
+    .descriptionResume{
+
+
+        display: flex;
+        flex-direction: column-reverse;
+
+    
+        h4{
+            font-size: 24px;
+    
+            svg{
+                width: 50px;
+            }
+        }
+    }
+    
+    
+    .leftSideDescriptionResume{
+
+        width: 90%;
+        margin: 0 auto;
+    
+    
+
+        .graduationPart{
+    
+            margin-bottom: 70px;
+    
+        }
+    }
+    
+    .rightSideDescriptionResume{
+        width: 90%;
+        margin: 70px auto;
+        border: 5px solid rgba($color: #73899f, $alpha: 0.6);
+    }
+    
+}

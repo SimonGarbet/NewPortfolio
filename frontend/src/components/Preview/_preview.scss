@@ -121,3 +121,35 @@
         transform: translateY(0%);
     }
   }
+
+
+
+  @media (max-width: 1000px) { 
+
+    .globalPreview{
+        
+    
+        .titlePreview{
+            height: 60%;
+        
+            h2{
+                font-family: "Gallery Modern";
+                font-size: 40px;
+            }
+        
+            p{
+                font-size: 18px;
+            }
+        }
+    
+    
+    }
+    
+    .scrollBar{
+    
+        p{
+            font-size: 18px;
+        }
+    }
+
+  }

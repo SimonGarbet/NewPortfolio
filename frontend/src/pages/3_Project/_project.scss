@@ -419,3 +419,136 @@
     }
 
 }
+
+
+
+
+
+
+@media (max-width: 1000px) { 
+
+
+    
+    .titleProject{
+    
+        h2{
+            font-size: 100px;
+        }
+    
+        h3{
+            font-size: 40px;
+        }
+    
+    }
+    
+    
+    
+    .switchProject{
+    
+        a{
+            font-size: 14px;
+        }
+    }
+    
+    
+    .bannerProject{
+
+        margin-top: 120px;
+        
+    
+        img{
+            width: 32%;
+            height: 400px;
+            border: #000 solid 10px;
+            object-fit: cover;
+        }
+        
+    }
+    
+    
+    .dataProject{
+
+    
+        p{
+            font-size: 14px;
+        }
+    
+        h5{
+            font-size: 18px;
+        }
+    }
+    
+    
+    .descriptionProject{
+    
+            h4{
+                font-size: 30px;
+            }
+    
+            .splitterChallengeProject{
+                width: 80%;
+                font-size: 18px;
+    
+    
+                    h6{
+                        font-size: 16px;
+                    }
+            }
+    }
+
+
+    .prevProjectRedirection{
+    
+        .galleryWord{
+            font-size: 40px;
+        }
+    
+        .poppinsWord{
+            font-size: 30px;
+        }
+      }
+    
+    
+    
+      @keyframes  PrevProjectSlide {
+        from {
+            transform: translateX(-12px)
+        }
+    
+        to {
+            transform: translateX(-1430px)
+        }
+    
+    }
+    
+    
+      .nextProjectRedirection{
+    
+        .galleryWord{
+            font-size: 40px;
+        }
+    
+        .poppinsWord{
+            font-size: 30px;
+        }
+      }
+    
+    
+    
+    
+      @keyframes  NextProjectSlide {
+        from {
+            transform: translateX(-2113px)
+        }
+    
+        to {
+            transform: translateX(-800px)
+        }
+    
+    }
+    
+    
+    
+
+
+}

@@ -58,6 +58,9 @@
         height: 100vh;
         position: relative;
         padding-top: 40vh;
+        text-align: center;
+
+        border-left: #000 solid 2px;
         
 
         h2{
@@ -70,5 +73,29 @@
             font-weight: 400;
         }
     }
+
+}
+
+
+
+@media (max-width: 1000px) { 
+
+    .globalAchievements{
+
+
+    .endAchievements{
+        
+
+        h2{
+            font-size: 35px;
+        }
+
+        h3{
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+
+}
 
 }

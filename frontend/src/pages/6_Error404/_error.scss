@@ -155,3 +155,31 @@
     }
 
 }
+
+
+@media (max-width : 1000px){
+
+    .titleError{
+        display: flex;
+        gap: 30px;
+        position: relative;
+        transform: translateY(-15%);
+    
+        img{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    
+        h2{
+            font-size: 100px;
+        }
+    
+        h3 p{
+            font-size: 60px;
+        }
+    
+    
+    }
+
+}

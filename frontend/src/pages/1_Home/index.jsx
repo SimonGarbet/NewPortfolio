@@ -49,7 +49,7 @@ function Home() {
       <Link to = {'/achievements'} className='widPartHome'
       onMouseOver={() => setOnAchievements(true)}
       onMouseLeave={() => setOnAchievements(false)}
-      style={{ filter: (onAbout || onResume) ? "brightness(0.4)" : "brightness(1)",}}
+      style={{ filter: (onAbout || onResume) ? "brightness(0.6)" : "brightness(1)",}}
       >
 
           <section className='allBarret'>
@@ -66,7 +66,7 @@ function Home() {
         <Link to = {'/aboutme'} className='surfPartHome'
         onMouseOver={() => setOnAbout(true)}
         onMouseLeave={() => setOnAbout(false)}
-        style={{  filter: (onAchievements || onResume) ? "brightness(0.4)" : "brightness(1)",}}
+        style={{  filter: (onAchievements || onResume) ? "brightness(0.6)" : "brightness(1)",}}
         >
           <img style={{  transform: onAbout ? "scale(1.1)" : "scale(1)",}} src={surfPicture} alt='icone Ordinateur'/>
           <h3 style={{  transform: onAbout ? "scale(1.03)" : "scale(1)",}}>À PROPOS</h3>
@@ -75,7 +75,7 @@ function Home() {
         <Link to = {'/resume'} className='resumePartHome'
         onMouseOver={() => setOnResume(true)}
         onMouseLeave={() => setOnResume(false)}
-        style={{ filter: (onAchievements || onAbout) ? "brightness(0.4)" : "brightness(1)",}}
+        style={{ filter: (onAchievements || onAbout) ? "brightness(0.6)" : "brightness(1)",}}
         >
           <section className='yellowBlok1'></section>
           <section className='yellowBlok2'></section>

@@ -57,7 +57,7 @@ function Resume() {
           
           <div className='generalInfoResume'>
             <span><FontAwesomeIcon icon={faPhone} /> 06 46 85 05 73</span>
-            <span><FontAwesomeIcon icon={faLocationDot} />33 000 Bordeaux</span>
+            <span><FontAwesomeIcon icon={faLocationDot} />33000 Bordeaux</span>
             <a href='mailto: contact@simongarbet.com' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} />contact@simongarbet.com</a>
             <a href='https://www.linkedin.com/in/simongarbet/' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} />linkedin.com/in/simongarbet</a>
             <a href='https://github.com/SimonGarbet' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} />github.com/SimonGarbet</a>

@@ -18,15 +18,17 @@
         "pictures" : {
             "Select" : "/pictures/P10Garbet/Select/P10SE1.jpg",
             "Summary" : [
-                {"id" :  "DS1", "url" : "/pictures/P10Garbet/Summary/P10SU1.png"},
-                {"id" :  "DS2", "url" : "/pictures/P10Garbet/Summary/P10SU2.jpg"},
-                {"id" :  "DS3", "url" : "/pictures/P10Garbet/Summary/P10SU3.png"}
+                {"id" :  "DS1", "url" : "/pictures/P10Garbet/Summary/P10SU1.jpg"},
+                {"id" :  "DS2", "url" : "/pictures/P10Garbet/Summary/P10SU2.jpeg"},
+                {"id" :  "DS3", "url" : "/pictures/P10Garbet/Summary/P10SU3.gif"}
             ],
             "DescriptionDesk" : [
                 {"id" :  "DD1", "url" : "/pictures/P10Garbet/Description/P10DD1.jpg"},
                 {"id" :  "DD2", "url" : "/pictures/P10Garbet/Description/P10DD2.jpg"},
                 {"id" :  "DD3", "url" : "/pictures/P10Garbet/Description/P10DD3.jpg"},
-                {"id" :  "DD4", "url" : "/pictures/P10Garbet/Description/P10DD4.jpg"}
+                {"id" :  "DD4", "url" : "/pictures/P10Garbet/Description/P10DD4.jpg"},
+                {"id" :  "DD5", "url" : "/pictures/P10Garbet/Description/P10DD5.jpg"},
+                {"id" :  "DD6", "url" : "/pictures/P10Garbet/Description/P10DD6.jpg"}
             ],
             "DescriptionMob" : [
                 {"id" :  "DM1", "url" : "/pictures/P10Garbet/Description/P10DM1.jpg"},

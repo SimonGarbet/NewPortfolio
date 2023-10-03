@@ -1,6 +1,7 @@
 .globalError{
     background-color: #000;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .titleError{
@@ -45,11 +46,12 @@
     width: 100%;
     height: 40vh;
     color: #fff;
-    overflow: hidden;
+    overflow-x: hidden;
     cursor: pointer;
 
     a{
         text-decoration: none;
+        overflow-x: hidden;
     }
 
     .leftToRightProject{
@@ -111,11 +113,11 @@
 
     .galleryWord{
         font-family: 'Gallery Modern';
-        font-size: 80px;
+        font-size: 70px;
     }
 
     .poppinsWord{
-        font-size: 70px;
+        font-size: 60px;
         text-decoration: underline;
     }
    
@@ -129,14 +131,14 @@
     }
 
     to {
-        transform: translateX(-2551px)
+        transform: translateX(-2820px)
     }
 
 }
 
 @keyframes RightToLeftAbout {
     from {
-        transform: translateX(-1080px)
+        transform: translateX(-2411px)
     }
 
     to {
@@ -151,7 +153,7 @@
     }
 
     to {
-        transform: translateX(-2280px)
+        transform: translateX(-2734px)
     }
 
 }
@@ -159,16 +161,22 @@
 
 @media (max-width : 1000px){
 
+    .globalError{
+        background-color: #fff;
+    }
+
     .titleError{
         display: flex;
         gap: 30px;
         position: relative;
-        transform: translateY(-15%);
+        transform: translateY(-20%);
+        color: #000;
     
         img{
             position: absolute;
             bottom: 0;
-            width: 100%;
+            width: auto;
+            height: 260px;
         }
     
         h2{
@@ -177,9 +185,126 @@
     
         h3 p{
             font-size: 60px;
+            font-weight: 600;
         }
     
     
     }
+
+    .scrollingRedirections{
+
+        .scrollwhite{
+            height: 33%;
+            padding: 30px 0;
+        }
+
+        .scroll{
+            height: 33%;
+            padding: 30px 0;
+        }
+    }
+
+
+}
+
+
+@media (max-width : 750px){
+
+    .globalError{
+
+        .basicHeader button{
+            background-color: rgba($color: #000, $alpha: 0.8) !important;
+        }
+    }
+
+
+    .titleError{
+        display: flex;
+        gap: 60px;
+        height: 55vh;
+        transform: translateY(-15%);
+    
+        img{
+            height: 230px;
+        }
+    
+        h2{
+            font-size: 80px;
+        }
+    
+        h3 p{
+            font-size: 50px;
+        }
+    
+    
+    }
+
+    .scrollingRedirections{
+        height: 45vh;
+
+        .leftToRightProject{
+            gap: 200px;
+        }
+    
+        .rightToLeftAbout{
+            gap: 200px;
+        }
+    
+        .leftToRightResume{
+            gap: 200px;
+    
+        }
+
+        .scrollwhite{
+            padding: 50px 0;
+        }
+
+        .scroll{
+            padding: 50px 0;
+        }
+
+        .galleryWord{
+            font-size: 50px;
+        }
+    
+        .poppinsWord{
+            font-size: 40px;
+        }
+       
+    }
+
+    
+@keyframes LeftToRightProject {
+    from {
+        transform: translateX(0)
+    }
+
+    to {
+        transform: translateX(-2880px)
+    }
+
+}
+
+@keyframes RightToLeftAbout {
+    from {
+        transform: translateX(-2454px)
+    }
+
+    to {
+        transform: translateX(-12px)
+    }
+
+}
+
+@keyframes LeftToRightResume {
+    from {
+        transform: translateX(0)
+    }
+
+    to {
+        transform: translateX(-2790px)
+    }
+
+}
 
 }

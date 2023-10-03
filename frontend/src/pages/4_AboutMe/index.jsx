@@ -5,7 +5,8 @@ import Header from '../../components/Header';
 
 import logomenuB from '../../assets/logomenuB.png';
 import BannerPicture from '../../assets/BannerAbout.png';
-import ProfilePicture from '../../assets/imageProfil.jfif';
+import MNSPicture from '../../assets/MNS_Simon_Garbet.jpeg'
+import TrailPicture from '../../assets/Trail_Simon_Garbet.jpeg'
 import SportyPicture from '../../assets/SportySection.jpg';
 import GamerPicture from '../../assets/GamerSection.png';
 
@@ -13,7 +14,7 @@ import '../../scss/style.scss';
 
 function AboutMe() {
   return (
-    <div>
+    <div className='globalAbout'>
 
       <Header
         colorLogo='#000'
@@ -66,8 +67,8 @@ function AboutMe() {
         </div>
 
         <div className='devGallery'>
-              <img src={ProfilePicture} alt='Photographie de Simon Garbet'/>
-              <img className="gapPicture" src={ProfilePicture} alt='Photographie de Simon Garbet'/>
+              <img src={MNSPicture} alt='Photographie de Simon Garbet'/>
+              <img className="gapPicture" src={TrailPicture} alt='Photographie de Simon Garbet'/>
         </div>
         
       </section>
@@ -144,21 +145,25 @@ function AboutMe() {
 
       </section>
 
-      <Link className="resumeRedirection" to = {'/resume'}>
+      <section className="resumeRedirection" >
+
+      <Link to = {'/resume'}>
         <div className='scroll'>
           <div className='leftToRightResume'>
-            <p className='galleryWord'>RESUME</p>
-            <p className='poppinsWord'>RESUME</p>
-            <p className='galleryWord'>RESUME</p>
-            <p className='poppinsWord'>RESUME</p>
-            <p className='galleryWord'>RESUME</p>
-            <p className='poppinsWord'>RESUME</p>
-            <p className='galleryWord'>RESUME</p>
-            <p className='poppinsWord'>RESUME</p>
-            <p className='galleryWord'>RESUME</p>
+            <p className='galleryWord'>CURRICULUM</p>
+            <p className='poppinsWord'>CURRICULUM</p>
+            <p className='galleryWord'>CURRICULUM</p>
+            <p className='poppinsWord'>CURRICULUM</p>
+            <p className='galleryWord'>CURRICULUM</p>
+            <p className='poppinsWord'>CURRICULUM</p>
+            <p className='galleryWord'>CURRICULUM</p>
+            <p className='poppinsWord'>CURRICULUM</p>
+            <p className='galleryWord'>CURRICULUM</p>
           </div>
         </div>
       </Link>
+
+      </section>
 
     </div>
   )

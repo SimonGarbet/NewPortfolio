@@ -31,15 +31,15 @@ function Error404() {
       <Link to = {'/achievements'}>
         <div className='scroll'>
           <div className='leftToRightProject'>
-              <p className='galleryWord'>PROJECTS</p>
-              <p className='poppinsWord'>PROJECTS</p>
-              <p className='galleryWord'>PROJECTS</p>
-              <p className='poppinsWord'>PROJECTS</p>
-              <p className='galleryWord'>PROJECTS</p>
-              <p className='poppinsWord'>PROJECTS</p>
-              <p className='galleryWord'>PROJECTS</p>
-              <p className='poppinsWord'>PROJECTS</p>
-              <p className='galleryWord'>PROJECTS</p>
+              <p className='galleryWord'>RÉALISATIONS</p>
+              <p className='poppinsWord'>RÉALISATIONS</p>
+              <p className='galleryWord'>RÉALISATIONS</p>
+              <p className='poppinsWord'>RÉALISATIONS</p>
+              <p className='galleryWord'>RÉALISATIONS</p>
+              <p className='poppinsWord'>RÉALISATIONS</p>
+              <p className='galleryWord'>RÉALISATIONS</p>
+              <p className='poppinsWord'>RÉALISATIONS</p>
+              <p className='galleryWord'>RÉALISATIONS</p>
           </div>
         </div>
         </Link>
@@ -47,15 +47,15 @@ function Error404() {
         <Link to = {'/aboutme'}>
         <div className='scrollwhite'>
           <div className='rightToLeftAbout'>
-              <p className='galleryWord'>ABOUT</p>
-              <p className='poppinsWord'>ABOUT</p>
-              <p className='galleryWord'>ABOUT</p>
-              <p className='poppinsWord'>ABOUT</p>
-              <p className='galleryWord'>ABOUT</p>
-              <p className='poppinsWord'>ABOUT</p>
-              <p className='galleryWord'>ABOUT</p>
-              <p className='poppinsWord'>ABOUT</p>
-              <p className='galleryWord'>ABOUT</p>
+              <p className='galleryWord'>À PROPOS</p>
+              <p className='poppinsWord'>À PROPOS</p>
+              <p className='galleryWord'>À PROPOS</p>
+              <p className='poppinsWord'>À PROPOS</p>
+              <p className='galleryWord'>À PROPOS</p>
+              <p className='poppinsWord'>À PROPOS</p>
+              <p className='galleryWord'>À PROPOS</p>
+              <p className='poppinsWord'>À PROPOS</p>
+              <p className='galleryWord'>À PROPOS</p>
           </div>
         </div>
         </Link>
@@ -63,15 +63,15 @@ function Error404() {
         <Link to = {'/resume'}>
         <div className='scroll'>
           <div className='leftToRightResume'>
-              <p className='galleryWord'>RESUME</p>
-              <p className='poppinsWord'>RESUME</p>
-              <p className='galleryWord'>RESUME</p>
-              <p className='poppinsWord'>RESUME</p>
-              <p className='galleryWord'>RESUME</p>
-              <p className='poppinsWord'>RESUME</p>
-              <p className='galleryWord'>RESUME</p>
-              <p className='poppinsWord'>RESUME</p>
-              <p className='galleryWord'>RESUME</p>
+              <p className='galleryWord'>CURRICULUM</p>
+              <p className='poppinsWord'>CURRICULUM</p>
+              <p className='galleryWord'>CURRICULUM</p>
+              <p className='poppinsWord'>CURRICULUM</p>
+              <p className='galleryWord'>CURRICULUM</p>
+              <p className='poppinsWord'>CURRICULUM</p>
+              <p className='galleryWord'>CURRICULUM</p>
+              <p className='poppinsWord'>CURRICULUM</p>
+              <p className='galleryWord'>CURRICULUM</p>
           </div>
         </div>
         </Link>

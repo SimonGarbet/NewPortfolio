@@ -92,6 +92,7 @@
                 height: 7px;
                 width: 45vw;
                 background: rgba($color: #73899f, $alpha: 0.6);
+                margin: 0 auto;
                 margin-top: 10px;
             }
         }
@@ -465,6 +466,13 @@
         
     }
 
+    .picResume{
+        img{
+            width: 400px;
+            height: 400px;
+        }
+    }
+
 
     .leftSideHeadResume{
 
@@ -480,12 +488,7 @@
 
 }
 
-    .picResume{
-        img{
-            width: 400px;
-            height: 400px;
-        }
-    }
+   
 
 
 }
@@ -548,6 +551,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            margin-right: 30px;
     
             span, a{
                 font-size: 18px;
@@ -605,7 +609,341 @@
     .rightSideDescriptionResume{
         width: 90%;
         margin: 70px auto;
+        padding: 50px 20px;
         border: 5px solid rgba($color: #73899f, $alpha: 0.6);
     }
+    
+}
+
+
+
+@media (max-width: 750px) { 
+
+    .downloadPDF{
+    
+        button{
+        width: 70%;
+        font-size: 16px;
+    }
+    }
+    
+    
+    .globalResume{
+        border: 3px solid rgba($color: #73899f, $alpha: 0.6);
+        
+    }
+    
+    
+    .headResume{
+
+        margin: 40px;
+    }
+    
+    .leftSideHeadResume{
+    
+        .titleResume{
+
+            h2{
+    
+                &::after{
+                    width: 70vw;
+                }
+            }
+        }
+    
+        .generalInfoResume{
+
+    
+            span, a{
+                font-size: 15px;
+            }
+    
+        }
+    
+    }
+    
+    
+    .picResume{
+        img{
+            width: 200px;
+            height: 200px;
+        }
+    }
+    
+    
+    .descriptionResume{
+
+        h4{
+            font-size: 22px;
+        }
+    }
+
+    .rightSideDescriptionResume{
+        margin: 70px auto 0px auto;
+    }
+
+    .tools_1, .tools_2{
+        svg{
+            font-size: 45px;
+        }
+
+        img{
+            width: 45px;
+        }
+    }
+
+    .sentenceTools{
+        font-size: 22px;
+    }
+
+    .otherTools{
+        svg{
+            font-size: 35px;
+        }
+
+        p{
+            font-size: 12px;
+        }
+
+        .titleTools{
+            font-size: 15px;
+        }
+
+
+    }
+
+
+    .plusPart{
+
+        div{
+
+        p{
+            font-size: 15px;
+        }
+
+        section{
+            width: 35%;
+        }
+
+
+            svg{
+                font-size: 25px;
+            }
+
+   
+
+        }
+        
+    }
+
+    .xpPart{
+        h5{
+            font-size: 18px;
+        }
+       
+
+        p{
+            font-size: 14px;
+
+            span{
+                font-size: 14px;
+            }
+        }
+    }
+
+    .leftSideDescriptionResume{
+        .skillsPart{
+
+            p{
+                font-size: 14px;
+                padding: 20px 10px;
+                height: 85px;
+            }
+        }
+
+        .graduationPart{
+
+            margin-top: 100px;
+
+            div{
+                h5{
+                    font-size: 16px;
+                }
+
+                .orangeWord{
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+    
+        }
+    }
+
+
+
+    .whiteFoot{
+        height: 350px;
+    }
+    
+   
+    
+}
+
+@media (max-width: 500px) { 
+    
+    
+    .globalResume{
+        width: 100%;
+        border: none;
+        
+    }
+    
+    
+    .headResume{
+        margin: 0;
+        padding-top: 50px;
+    }
+    
+    .leftSideHeadResume{
+    
+        .titleResume{
+
+            h2{
+                font-size: 30px;
+    
+                &::after{
+                    width: 70vw;
+                }
+            }
+
+            h3{
+                font-size: 22px;
+            }
+        }
+    
+        .generalInfoResume{
+
+    
+            span, a{
+                font-size: 12px;
+            }
+    
+        }
+    
+    }
+    
+    
+    .picResume{
+        img{
+            width: 150px;
+            height: 150px;
+        }
+    }
+    
+    
+    .descriptionResume{
+
+        h4{
+            font-size: 20px;
+        }
+    }
+
+    .tools_1, .tools_2{
+        font-size: 8px;
+        svg{
+            font-size: 35px;
+        }
+
+        img{
+            width: 35px;
+        }
+    }
+
+    .sentenceTools{
+        font-size: 18px;
+    }
+
+    .otherTools{
+        svg{
+            font-size: 30px;
+        }
+
+        p{
+            font-size: 10px;
+        }
+
+        .titleTools{
+            font-size: 12px;
+        }
+
+
+    }
+
+
+    .plusPart{
+
+        div{
+
+        p{
+            font-size: 12px;
+        }
+
+            svg{
+                font-size: 20px;
+            }
+
+            .arrow2 {
+                display: none;
+            }
+
+        }
+        
+    }
+
+    .xpPart{
+        h5{
+            font-size: 15px;
+        }
+       
+
+        p{
+            font-size: 12px;
+
+            span{
+                font-size: 12px;
+            }
+        }
+    }
+
+    .leftSideDescriptionResume{
+        .skillsPart{
+
+            p{
+                font-size: 10px;
+                height: 75px;
+            }
+        }
+
+        .graduationPart{
+
+            div{
+                h5{
+                    font-size: 15px;
+                }
+
+                .orangeWord{
+                    font-size: 15px;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+    
+        }
+    }
+    
+   
     
 }

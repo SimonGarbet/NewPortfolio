@@ -1,6 +1,7 @@
 .globalProject{
 
-    transform: translateY(200px);
+    margin-top: 200px;
+    overflow-x: hidden;
 
     a{
         text-decoration: none;
@@ -67,10 +68,11 @@
 
     img{
         width: 32%;
-        border: #000 solid 25px;
+        border: #000 solid 15px;
         border-radius: 20px;
         background-color:  #000;
         object-fit: cover;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 20px, rgba(0, 0, 0, 0.22) 0px 8px 8px;
     }
 
     .DS1{
@@ -132,7 +134,7 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-    width: 90%;
+    width: 80%;
     max-width: 2000px;
     margin: 0 auto;
     margin-top: 150px;
@@ -246,8 +248,9 @@
     align-items: flex-start;
     justify-content: center;
     gap: 25%;
+    padding: 50px 0;
     
-    .containerScreenMob{
+    .DM1, .DM2{
           padding: 120px 0;
     }
 
@@ -335,6 +338,7 @@
 
     .leftToRightProject{
         display: flex;
+        align-items: center;
         gap: 300px;
 
         animation: PrevProjectSlide 10s infinite linear;
@@ -380,6 +384,7 @@
 
     .leftToRightProject{
         display: flex;
+        align-items: center;
         gap: 300px;
 
         animation: NextProjectSlide 10s infinite linear;
@@ -389,6 +394,7 @@
         white-space: nowrap;
         padding: 30px 0;
         color: #000;
+        background: #fff;
 
         &:hover{
             transform: scale(1.05);
@@ -468,13 +474,15 @@
     
     .dataProject{
 
+        width: 90%;
+
     
         p{
             font-size: 14px;
         }
     
         h5{
-            font-size: 18px;
+            font-size: 16px;
         }
     }
     
@@ -548,6 +556,237 @@
     }
     
     
+    
+
+
+}
+
+
+@media (max-width: 750px) { 
+
+
+    
+    .titleProject{
+    
+        h2{
+            font-size: 60px;
+        }
+    
+        h3{
+            font-size: 30px;
+        }
+    
+    }
+    
+    
+    
+    .switchProject{
+    
+        a{
+            font-size: 12px;
+        }
+    }
+    
+    
+    .bannerProject{
+
+        margin-top: 100px;
+        position: relative;
+        height: 400px;
+    
+        img{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 5px, rgba(0, 0, 0, 0.12) 0px 5px 5px;
+        }
+
+        .DS1{
+           animation: variationDS1 12s linear infinite;
+        }
+
+        .DS2{
+            animation: variationDS2 12s linear infinite;
+        }
+
+        .DS3{
+            animation: variationDS3 12s linear infinite;
+        }
+        
+    }
+
+
+    @keyframes variationDS1{
+
+        0%{
+            z-index: 1;
+        }
+
+        33%{
+            z-index: 2;
+        }
+
+        66%{
+            z-index: 3;
+        }
+
+        100%{
+            z-index: 1;
+        }
+
+
+    }
+
+    @keyframes variationDS2{
+
+        0%{
+            z-index: 3;
+        }
+
+        33%{
+            z-index: 1;
+        }
+
+        66%{
+            z-index: 2;
+        }
+
+        100%{
+            z-index: 3;
+        }
+
+
+    }
+
+    @keyframes variationDS3{
+
+        0%{
+            z-index: 2;
+        }
+
+        33%{
+            z-index: 3;
+        }
+
+        66%{
+            z-index: 1;
+        }
+
+        100%{
+            z-index: 2;
+        }
+
+
+    }
+    
+    
+    .dataProject{
+
+        width: 90%;
+
+    
+        p{
+            font-size: 12px;
+        }
+    
+        h5{
+            font-size: 14px;
+        }
+    }
+    
+    
+    .descriptionProject{
+    
+            h4{
+                font-size: 24px;
+            }
+    
+            .splitterChallengeProject{
+
+                flex-direction: column;
+                align-items: center;
+                gap:  30px;
+                font-size: 16px;
+    
+    
+                    h6{
+                        font-size: 14px;
+                    }
+            }
+    }
+
+    .screenDeskProject{
+
+        img{
+            height: 400px;
+            object-fit: cover;
+        }
+    
+    
+    }
+    
+    
+    .screenMobProject{
+
+        .DM2{
+            display: none;
+        }
+    
+    }
+    
+
+
+}
+
+
+@media (max-width: 500px) { 
+
+
+    
+    .titleProject{
+    
+        h2{
+            font-size: 45px;
+        }
+    
+        h3{
+            font-size: 24px;
+        }
+    
+    }
+
+    .bannerProject{
+
+        height: 350px;
+
+    }
+    
+    
+    
+    .switchProject{
+    
+        a{
+            font-size: 10px;
+        }
+    }
+    
+    
+    .dataProject{
+
+        width: 90%;
+
+    
+        p{
+            font-size: 10px;
+        }
+    
+        h5{
+            font-size: 8px;
+        }
+    }
     
 
 

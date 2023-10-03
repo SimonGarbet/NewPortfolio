@@ -68,7 +68,12 @@ calculRedirect()
   return (
     <div>
 
-  <Header
+    { isDataLoading ? (
+      <div>Loading Screen</div>
+    ):(
+      <div className='globalProject'>
+
+    <Header
       colorLogo='#000'
       colorBackgroundLogo = '#fff'
       logoMenu={logomenuB}
@@ -76,11 +81,6 @@ calculRedirect()
       colorBackgroundMenu = "#fff"
       menuVisible= "y"
     />
-
-    { isDataLoading ? (
-      <div>Loading Screen</div>
-    ):(
-      <div className='globalProject'>
 
         <section className='titleProject'>
           <h2>{projectTarget[0].longTitle[0]}</h2>
@@ -147,7 +147,7 @@ calculRedirect()
         style = {{ background: (projectTarget[0].pictures.DescriptionDesk.length % 2 === 0) ? '#000' :  '#fff',}}
         >
             {projectTarget[0].pictures.DescriptionMob.map((picture) =>(
-              <div key={picture.id}  className="containerScreenMob">
+              <div key={picture.id}  className={picture.id}>
               <div className='cutterPic'>
               <img className='iphoneContainer' src={iPhone} alt="Prévisualisation du site web sur un Iphone"/>
               <img className= "screenMobileProject" src={picture.url} alt='Screenshots mobile de chaque page du site web développé' />
@@ -155,6 +155,8 @@ calculRedirect()
               </div>
             ))}
         </section>
+
+        <section className='projectRedirections'>
 
 
         <Link className='prevProjectRedirection' to = {`/achievements/${idPrev}`}>
@@ -184,6 +186,8 @@ calculRedirect()
           </div>
         </div>
         </Link>
+
+        </section>
 
 
       </div>

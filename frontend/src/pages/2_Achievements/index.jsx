@@ -44,7 +44,46 @@ function Achievements() {
   } 
 
   return (
-    <div className='globalAchievements'>
+    <div className='totalAchievements'>
+
+      <section className='globalAchievementsVertical'>
+
+      <Header 
+      colorLogo='#000'
+      colorBackgroundLogo = '#fff'
+      logoMenu={logomenuB}
+      colorMenu= '#000'
+      colorBackgroundMenu = "#fff"
+      menuVisible= "y"
+      />
+
+      {isDataLoading ? (
+          <h2>Loading Screen</h2>
+        ) :(
+          <div className='allAchievementsVertical'>
+            {projectList?.map((project) => (
+              <Preview
+              key = {project.id}
+              id = {project.id}
+              maincolor = {project.maincolor}
+              type = {project.type}
+              shortTitle = {project.shortTitle}
+              techno = {project.techno}
+              imageSelect = {project.pictures.Select}
+              />
+            ))}
+
+          </div> 
+
+      )}
+
+
+
+
+      </section>
+
+
+    <section className='globalAchievementsHorizontal'>
       
       <section className='blocHorizontal' style={{width: `${40*(projectList.length+1)}vw`}}>
 
@@ -83,6 +122,9 @@ function Achievements() {
     
 
       </section>
+    </section>
+
+
     </div>
   )
 }

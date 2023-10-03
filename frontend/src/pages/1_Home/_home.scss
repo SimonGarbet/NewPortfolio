@@ -39,7 +39,7 @@
 .titleHome{
     display: flex;
     justify-content: center;
-    font-size: 110px;
+    font-size: 100px;
     position: relative;
     z-index: 10;
     height: 30vh;
@@ -251,12 +251,14 @@
 
 
 @media (max-width : 1000px){
+
     
     .backgroundGIF {
             top: -400px;
             right: -300px;
             height: 700px;
             width: 700px;
+            filter: brightness(100%);
            
     
         .blackHoleHome{
@@ -271,7 +273,6 @@
     .titleHome{
         font-size: 70px;
         transform: translateY(-10%);
-    
     }
     
     
@@ -295,12 +296,15 @@
             img{
                 height: 90%;
                 border-radius: 10px 10px 0 0;
+                z-index: 10;
             }
     
             h3{
                 width: 50%;
                 margin-top: 0px;
                 font-size: 35px;
+                color: #fff;
+                font-weight: 600;
     
                 &::before{
                   display: none;
@@ -309,6 +313,10 @@
     
             .allBarret{
                 gap: 5%;
+
+                section{
+                    background: rgba($color: #a21d3d, $alpha: 0.8);
+                }
         
                 .redBarret1{
                     width: 20%;
@@ -329,11 +337,15 @@
                     transform: rotate(0);
                 }
             }
+
+            .surfPartHome{
+                background: rgba($color: #73899f, $alpha: 0.8);
+            }
     
             .resumePartHome{
         
                 .yellowBlok1{
-
+                    background: rgba($color: #fff, $alpha: 0.8);
                     height: 35%;
     
                     &::before{
@@ -342,21 +354,145 @@
                 }
 
                 .yellowBlok2{
-
+                    background: rgba($color: #fff, $alpha: 1);
                     height: 35%;
                 }
-            }
         
     
     }
 
-    .clickHome{
 
-        p{
-          font-size: 15px;  
+
+}
+
+.clickHome{
+
+    p{
+      font-size: 18px;  
+    }
+}
+
+
+}
+
+
+@media (max-width : 750px){
+
+    
+    .backgroundGIF {
+            top: -270px;
+            right: -220px;
+            height: 500px;
+            width: 500px;
+           
+    
+        .blackHoleHome{
+            height: 300px;
+            width: 300px;
         }
+       
+    }
+    
+    
+.titleHome{
+    font-size: 45px;
+    transform: translateY(0);
+
+    h2{
+        padding: 20px 0px;
+    }
+
+}
+    
+    
+    
+    
+    .menuHome{
+    
+            a{
+                height: 16vh;
+                gap: 30px;
+            }
+    
+            img{
+                height: 70%;
+            }
+    
+            h3{
+                font-size: 30px;
+            }
+
+
+
+}
+
+.clickHome{
+
+    p{
+      font-size: 14px;  
+    }
+}
+
+}
+
+
+@media (max-width : 500px){
+
+    
+.titleHome{
+    font-size: 32px;
+
+    h2{
+        padding: 15px 0px;
+    }
+
+}
+    
+    
+    
+    
+    .menuHome{
+    
+            a{
+                height: 18vh;
+                gap: 30px;
+
+                flex-direction: column;
+                align-items: center;
+            }
+    
+            img{
+                height: 50%;
+                border-radius: 10px;
+            }
+    
+            h3{
+                font-size: 30px;
+                width: 100%;
+            }
+
+            .resumePartHome{
+        
+                .yellowBlok1{
+                    height: 70%;
+                }
+
+                .yellowBlok2{
+                    height: 5%;
+                }
+        
+    
     }
 
 
+
+}
+
+.clickHome{
+
+    p{
+      font-size: 12px;  
+    }
+}
 
 }

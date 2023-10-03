@@ -1,5 +1,15 @@
 
-.globalAchievements{
+.totalAchievements{
+    height: 100vh;
+}
+
+
+.globalAchievementsVertical{
+    display: none;
+}
+
+
+.globalAchievementsHorizontal{
     width: 100vh;
     height: 100vw;
     transform: rotate(-90deg) translateX(-100vh);
@@ -11,8 +21,6 @@
 
     -ms-overflow-style: none;
     scrollbar-width: none;
-
-
 
 }
 
@@ -80,7 +88,7 @@
 
 @media (max-width: 1000px) { 
 
-    .globalAchievements{
+    .globalAchievementsHorizontal{
 
 
     .endAchievements{
@@ -97,5 +105,24 @@
     }
 
 }
+
+}
+
+
+
+@media (max-width: 750px) { 
+
+
+
+    .globalAchievementsHorizontal{
+    display: none;
+    
+    }
+
+    .globalAchievementsVertical{
+        display: block;
+    }
+
+   
 
 }

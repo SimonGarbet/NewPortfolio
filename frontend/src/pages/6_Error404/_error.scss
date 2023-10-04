@@ -195,6 +195,7 @@
 
 
     .globalError{
+
         .basicHeader{
             button{
                 display: none !important;
@@ -203,6 +204,10 @@
     }
 
     .titleError{
+
+        margin-top: 50px ;
+
+        height: 40%;
     
         img{
             width: 45%;
@@ -225,6 +230,8 @@
 
 
     .scrollingRedirections{
+
+        height: 60%;
 
         .leftToRightProject{
             gap: 200px;

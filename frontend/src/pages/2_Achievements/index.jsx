@@ -43,6 +43,10 @@ function Achievements() {
     return <Error />
   } 
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0)
+}
+
   return (
     <div className='totalAchievements'>
 
@@ -111,7 +115,7 @@ function Achievements() {
               imageSelect = {project.pictures.Select}
               />
             ))}
-          <Link to = {`/aboutme`} className='endAchievements'>
+          <Link  onClick={scrollToTop} to = {`/aboutme`} className='endAchievements'>
             <h2>DÉCOUVREZ MON PROFIL</h2>
             <h3>SIMON GARBET</h3>
           </Link>

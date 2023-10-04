@@ -9,6 +9,12 @@ import darkSoul from '../../assets/DarkSoul.gif';
 import '../../scss/style.scss';
 
 function Error404() {
+
+  const scrollToTop = () => {
+    window.scrollTo(0, 0)
+}
+
+
   return (
     <div className='globalError'>
       <Header
@@ -30,7 +36,7 @@ function Error404() {
 
       <section className='scrollingRedirections'>
 
-      <Link to = {'/achievements'}>
+      <Link onClick={scrollToTop} to = {'/achievements'}>
         <div className='scroll'>
           <div className='leftToRightProject'>
               <p className='galleryWord'>RÉALISATIONS</p>
@@ -46,7 +52,7 @@ function Error404() {
         </div>
         </Link>
 
-        <Link to = {'/aboutme'}>
+        <Link onClick={scrollToTop} to = {'/aboutme'}>
         <div className='scrollwhite'>
           <div className='rightToLeftAbout'>
               <p className='galleryWord'>À PROPOS</p>
@@ -62,7 +68,7 @@ function Error404() {
         </div>
         </Link>
 
-        <Link to = {'/resume'}>
+        <Link onClick={scrollToTop} to = {'/resume'}>
         <div className='scroll'>
           <div className='leftToRightResume'>
               <p className='galleryWord'>CURRICULUM</p>

@@ -64,6 +64,11 @@ let idNext = parseInt(idProject.id)-1;
 calculRedirect()
 
 
+const scrollToTop = () => {
+  window.scrollTo(0, 0)
+}
+
+
 
   return (
     <div>
@@ -88,8 +93,8 @@ calculRedirect()
         </section>
 
         <section className='switchProject'>
-          <Link to = {`/achievements/${idPrev}`}>RÉALISATION PRÉCÉDENTE</Link>
-          <Link to = {`/achievements/${idNext}`}>RÉALISATION SUIVANTE</Link>
+          <Link onClick={scrollToTop} to = {`/achievements/${idPrev}`}>RÉALISATION PRÉCÉDENTE</Link>
+          <Link onClick={scrollToTop} to = {`/achievements/${idNext}`}>RÉALISATION SUIVANTE</Link>
         </section>
 
         <section className='bannerProject'>
@@ -159,7 +164,7 @@ calculRedirect()
         <section className='projectRedirections'>
 
 
-        <Link className='prevProjectRedirection' to = {`/achievements/${idPrev}`}>
+        <Link onClick={scrollToTop} className='prevProjectRedirection' to = {`/achievements/${idPrev}`}>
         <div className='scroll'>
           <div className='leftToRightProject'>
               <p className='galleryWord'>RÉALISATION PRÉCÉDENTE</p>
@@ -173,7 +178,7 @@ calculRedirect()
         </div>
         </Link>
 
-        <Link className='nextProjectRedirection' to = {`/achievements/${idNext}`}>
+        <Link onClick={scrollToTop} className='nextProjectRedirection' to = {`/achievements/${idNext}`}>
         <div className='scroll'>
           <div className='leftToRightProject'>
               <p className='galleryWord'>RÉALISATION SUIVANTE</p>

@@ -22,6 +22,11 @@ function Home() {
     useEffect(() => {}, [onAchievements, onAbout, onResume])
 
 
+    const scrollToTop = () => {
+      window.scrollTo(0, 0)
+  }
+
+
   return (
     <div className="globalHome">
 
@@ -46,7 +51,7 @@ function Home() {
 
       <section className='menuHome'>
 
-      <Link to = {'/achievements'} className='widPartHome'
+      <Link onClick={scrollToTop} to = {'/achievements'} className='widPartHome'
       onMouseOver={() => setOnAchievements(true)}
       onMouseLeave={() => setOnAchievements(false)}
       style={{ filter: (onAbout || onResume) ? "brightness(0.6)" : "brightness(1)",}}
@@ -63,7 +68,7 @@ function Home() {
           <h3 style={{  transform: onAchievements ? "scale(1.03)" : "scale(1)",}}>RÉALISATIONS</h3>
         </Link>
 
-        <Link to = {'/aboutme'} className='surfPartHome'
+        <Link onClick={scrollToTop} to = {'/aboutme'} className='surfPartHome'
         onMouseOver={() => setOnAbout(true)}
         onMouseLeave={() => setOnAbout(false)}
         style={{  filter: (onAchievements || onResume) ? "brightness(0.6)" : "brightness(1)",}}
@@ -72,7 +77,7 @@ function Home() {
           <h3 style={{  transform: onAbout ? "scale(1.03)" : "scale(1)",}}>À PROPOS</h3>
         </Link>
 
-        <Link to = {'/resume'} className='resumePartHome'
+        <Link onClick={scrollToTop} to = {'/resume'} className='resumePartHome'
         onMouseOver={() => setOnResume(true)}
         onMouseLeave={() => setOnResume(false)}
         style={{ filter: (onAchievements || onAbout) ? "brightness(0.6)" : "brightness(1)",}}

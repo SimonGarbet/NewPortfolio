@@ -40,7 +40,9 @@ function Preview({id, maincolor, type, shortTitle, techno, imageSelect}) {
     useEffect(() => {}, [onPreview])
 
 
-
+    const scrollToTop = () => {
+        window.scrollTo(0, 0)
+    }
 
   return (
     <div className='globalPreview'
@@ -49,7 +51,7 @@ function Preview({id, maincolor, type, shortTitle, techno, imageSelect}) {
     style={{ background: backgroundColorPreview, filter: onPreview ? "brightness(1)" : "brightness(0.75)"}}
     >
 
-        <Link to = {`/achievements/${id}`} 
+        <Link onClick={scrollToTop} to = {`/achievements/${id}`} 
         style={{color: textColorPreview}}
         >
             <div  className='titlePreview' style={{transform: onPreview ? "scale(1.1) translateY(15vh)" : "scale(1) translateY(15vh)"}}>

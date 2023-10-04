@@ -15,6 +15,10 @@ function Header({colorLogo, colorBackgroundLogo, logoMenu, colorMenu, colorBackg
 
     useEffect(() => {}, [isOpen])
 
+    const scrollToTop = () => {
+        window.scrollTo(0, 0)
+    }
+
   return (
     <div className='headerGlobal'>
 
@@ -22,7 +26,7 @@ function Header({colorLogo, colorBackgroundLogo, logoMenu, colorMenu, colorBackg
 
         <section className='basicHeader'>
 
-        <Link to = {'/'} className='homePageLink' 
+        <Link onClick={scrollToTop} to = {'/'} className='homePageLink' 
             style={{color: isOpen ? '#fff' : `${colorLogo}`, background: isOpen ? 'none' : `${colorBackgroundLogo}`}}>
             <h1>simongarbet<span>.com</span></h1>
         </Link>
@@ -47,10 +51,10 @@ function Header({colorLogo, colorBackgroundLogo, logoMenu, colorMenu, colorBackg
                 </div>
                 <div className='mainMenuModalHeader'>
                     <h3>Menu</h3>
-                    <Link to = {'/achievements'}><strong>R</strong>ÉALISATIONS</Link>
-                    <Link to = {'/aboutme'}><strong>À</strong> PROPOS</Link>
-                    <Link to = {'/resume'}><strong>C</strong>URRICULUM/<strong>V</strong>ITÆ</Link>
-                    <Link to = {'/404'} style={{fontSize: '30px'}}><strong>404</strong> DESIGN</Link>
+                    <Link onClick={scrollToTop} to = {'/achievements'}><strong>R</strong>ÉALISATIONS</Link>
+                    <Link onClick={scrollToTop} to = {'/aboutme'}><strong>À</strong> PROPOS</Link>
+                    <Link onClick={scrollToTop} to = {'/resume'}><strong>C</strong>URRICULUM/<strong>V</strong>ITÆ</Link>
+                    <Link onClick={scrollToTop} to = {'/404'} style={{fontSize: '30px'}}><strong>404</strong> DESIGN</Link>
                 </div>
             </section>
 

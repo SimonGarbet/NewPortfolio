@@ -13,6 +13,12 @@ import GamerPicture from '../../assets/GamerSection.png';
 import '../../scss/style.scss';
 
 function AboutMe() {
+
+  const scrollToTop = () => {
+    window.scrollTo(0, 0)
+}
+
+
   return (
     <div className='globalAbout'>
 
@@ -147,7 +153,7 @@ function AboutMe() {
 
       <section className="resumeRedirection" >
 
-      <Link to = {'/resume'}>
+      <Link onClick={scrollToTop} to = {'/resume'}>
         <div className='scroll'>
           <div className='leftToRightResume'>
             <p className='galleryWord'>CURRICULUM</p>

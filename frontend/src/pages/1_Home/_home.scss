@@ -1,7 +1,7 @@
 .globalHome{
     position: relative;
     background: black;
-    height: 100vh;
+    height: 100dvh;
     color: white;
     overflow-x: hidden;
 }
@@ -378,54 +378,53 @@
 
 @media (max-width : 750px){
 
-    
     .backgroundGIF {
-            top: -270px;
-            right: -220px;
-            height: 500px;
-            width: 500px;
-           
-    
-        .blackHoleHome{
-            height: 300px;
-            width: 300px;
-        }
+        top: -270px;
+        right: -220px;
+        height: 500px;
+        width: 500px;
        
-    }
-    
-    
-.titleHome{
-    font-size: 45px;
-    transform: translateY(-30px);
-    height: auto;
-    margin-bottom: 60px;
 
-    h2{
-        padding: 20px 0px;
+    .blackHoleHome{
+        height: 300px;
+        width: 300px;
     }
+   
+}
+
+
+.titleHome{
+font-size: 45px;
+transform: translateY(-30px);
+height: auto;
+margin-bottom: 60px;
+
+h2{
+    padding: 20px 0px;
+}
 
 }
-    
-    
-    
-    
-    .menuHome{
 
-        width: 100%;
-        gap: 30px;
-        height: auto;
-    
-            a{
-                gap: 30px;
-            }
-    
-            img{
-                height: 70%;
-            }
-    
-            h3{
-                font-size: 30px;
-            }
+
+
+
+.menuHome{
+
+    width: 100%;
+    gap: 30px;
+    height: auto;
+
+        a{
+            gap: 30px;
+        }
+
+        img{
+            height: 70%;
+        }
+
+        h3{
+            font-size: 30px;
+        }
 
 
 
@@ -433,65 +432,66 @@
 
 .clickHome{
 
-    p{
-      font-size: 14px;  
-    }
+p{
+  font-size: 14px;  
 }
+}
+    
 
 }
 
 
 @media (max-width : 500px){
 
-    
-.titleHome{
-    font-size: 32px;
+    .backgroundGIF {
+        top: -140px;
+        right: -120px;
+        height: 230px;
+        width: 250px;
+       
 
-    h2{
-        padding: 15px 0px;
+    .blackHoleHome{
+        height: 250px;
+        width: 250px;
     }
+   
+}
+
+
+
+.titleHome{
+font-size: 30px;
+height: 10dvh;
+transform: translateY(0);
+
+h2{
+    padding: 20px 0px;
+}
 
 }
-    
-    
-    
-    
-    .menuHome{
-    
-            a{
-                height: 18vh;
-                gap: 30px;
 
-                flex-direction: column;
-                align-items: center;
-            }
-    
-            img{
-                height: 45%;
-                border-radius: 10px;
-                transform: translateY(15px) !important;
-            }
-    
-            h3{
-                font-size: 26px;
-                width: 100%;
-            }
 
-            .resumePartHome{
 
-                h3{
-                    padding-bottom: 15px;
-                }
-                .whiteBlok1{
-                    height: 65%;
-                }
 
-                .whiteBlok2{
-                    height: 10px;
-                }
-        
-    
-    }
+.menuHome{
+
+    width: 100%;
+    gap: 3dvh;
+    height: 80dvh;
+
+        a{
+            gap: 30px;
+            height: 18dvh;
+        }
+
+        img{
+            height: auto;
+            width: 25%;
+        }
+
+        h3{
+            font-size: 18px;
+        }
 
 
 
@@ -499,9 +499,7 @@
 
 .clickHome{
 
-    p{
-      font-size: 12px;  
-    }
+    display: none;
 }
 
 }

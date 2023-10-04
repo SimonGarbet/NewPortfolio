@@ -797,13 +797,16 @@
     .globalResume{
         width: 100%;
         border: none;
-        
+        box-shadow: none;
+        border-top: rgba($color: #a21d3d, $alpha: 0.5) 10px solid;
+        border-bottom: rgba($color: #a21d3d, $alpha: 0.5) 10px solid;
+        border-radius: 0;
     }
     
     
     .headResume{
         margin: 0;
-        padding-top: 50px;
+        padding-top: 70px;
     }
     
     .leftSideHeadResume{
@@ -931,6 +934,7 @@
         }
 
         .graduationPart{
+
 
             div{
                 h5{

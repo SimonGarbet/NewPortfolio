@@ -21,9 +21,11 @@ function Error404() {
       />
 
       <section className='titleError'>
-      <h2>404</h2>
+        <div>
+        <h2>404</h2>
+        <h3><p>NOT</p><p>FOUND</p></h3>
+        </div>
       <img src={darkSoul} alt="GIF d'un feu dans le jeu vidéo Dark Soul"></img>
-      <h3><p>NOT</p><p>FOUND</p></h3>
       </section>
 
       <section className='scrollingRedirections'>

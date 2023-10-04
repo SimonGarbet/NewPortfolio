@@ -396,7 +396,9 @@
     
 .titleHome{
     font-size: 45px;
-    transform: translateY(0);
+    transform: translateY(-30px);
+    height: auto;
+    margin-bottom: 60px;
 
     h2{
         padding: 20px 0px;
@@ -408,9 +410,12 @@
     
     
     .menuHome{
+
+        width: 100%;
+        gap: 30px;
+        height: auto;
     
             a{
-                height: 16vh;
                 gap: 30px;
             }
     
@@ -462,23 +467,27 @@
             }
     
             img{
-                height: 50%;
+                height: 45%;
                 border-radius: 10px;
+                transform: translateY(15px) !important;
             }
     
             h3{
-                font-size: 30px;
+                font-size: 26px;
                 width: 100%;
             }
 
             .resumePartHome{
-        
+
+                h3{
+                    padding-bottom: 15px;
+                }
                 .whiteBlok1{
-                    height: 70%;
+                    height: 65%;
                 }
 
                 .whiteBlok2{
-                    height: 5%;
+                    height: 10px;
                 }
         
     

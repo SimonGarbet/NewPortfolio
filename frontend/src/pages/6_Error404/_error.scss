@@ -2,32 +2,38 @@
     background-color: #000;
     height: 100vh;
     overflow-x: hidden;
+
+   
 }
 
 .titleError{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
 
     color: #fff;
 
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     height: 60vh;
 
     img{
         border-radius: 50px;
         border: rgba($color: #fff, $alpha: 0.8) 2px dotted;
-        width: 30%;
+        width: 50%;
         max-width: 450px;
         max-height: 300px;
         object-fit: cover;
     }
 
+    div{
+        width: 50%;
+    }
+
     h2{
         font-size: 160px;
         font-weight: 400;
+        text-align: center;
     }
 
     h3 p{
@@ -56,6 +62,7 @@
 
     .leftToRightProject{
         display: flex;
+        align-items: center;
         gap: 300px;
 
         animation: LeftToRightProject 20s infinite linear;
@@ -63,6 +70,7 @@
 
     .rightToLeftAbout{
         display: flex;
+        align-items: center;
         gap: 300px;
 
         animation: RightToLeftAbout 15s infinite linear;
@@ -70,6 +78,7 @@
 
     .leftToRightResume{
         display: flex;
+        align-items: center;
         gap: 300px;
 
         animation: LeftToRightResume 30s infinite linear;
@@ -161,48 +170,22 @@
 
 @media (max-width : 1000px){
 
-    .globalError{
-        background-color: #fff;
-    }
-
     .titleError{
-        display: flex;
-        gap: 30px;
-        position: relative;
-        transform: translateY(-20%);
-        color: #000;
-    
-        img{
-            position: absolute;
-            bottom: 0;
-            width: auto;
-            height: 260px;
-        }
+
     
         h2{
-            font-size: 100px;
+            font-size: 120px;
         }
     
         h3 p{
-            font-size: 60px;
-            font-weight: 600;
+
+            font-size: 80px;
         }
     
     
     }
 
-    .scrollingRedirections{
 
-        .scrollwhite{
-            height: 33%;
-            padding: 30px 0;
-        }
-
-        .scroll{
-            height: 33%;
-            padding: 30px 0;
-        }
-    }
 
 
 }
@@ -210,37 +193,38 @@
 
 @media (max-width : 750px){
 
-    .globalError{
 
-        .basicHeader button{
-            background-color: rgba($color: #000, $alpha: 0.8) !important;
+    .globalError{
+        .basicHeader{
+            button{
+                display: none !important;
+            }
         }
     }
 
-
     .titleError{
-        display: flex;
-        gap: 60px;
-        height: 55vh;
-        transform: translateY(-15%);
     
         img{
-            height: 230px;
+            width: 45%;
+        }
+    
+        div{
+            width: 55%;
         }
     
         h2{
-            font-size: 80px;
+            font-size: 60px;
         }
     
         h3 p{
-            font-size: 50px;
+            font-size: 40px;
         }
     
     
     }
 
+
     .scrollingRedirections{
-        height: 45vh;
 
         .leftToRightProject{
             gap: 200px;
@@ -252,19 +236,11 @@
     
         .leftToRightResume{
             gap: 200px;
-    
-        }
-
-        .scrollwhite{
-            padding: 50px 0;
-        }
-
-        .scroll{
-            padding: 50px 0;
         }
 
         .galleryWord{
             font-size: 50px;
+            padding-left: 20px;
         }
     
         .poppinsWord{

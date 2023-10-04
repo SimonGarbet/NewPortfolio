@@ -20,7 +20,7 @@
             "Summary" : [
                 {"id" :  "DS1", "url" : "/pictures/P10Garbet/Summary/P10SU1.jpg"},
                 {"id" :  "DS2", "url" : "/pictures/P10Garbet/Summary/P10SU2.jpg"},
-                {"id" :  "DS3", "url" : "/pictures/P10Garbet/Summary/P10SU3.JPG"}
+                {"id" :  "DS3", "url" : "/pictures/P10Garbet/Summary/P10SU3.jpg"}
             ],
             "DescriptionDesk" : [
                 {"id" :  "DD1", "url" : "/pictures/P10Garbet/Description/P10DD1.jpg"},

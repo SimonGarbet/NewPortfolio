@@ -84,7 +84,7 @@
         "category" : "PORTFOLIO PERSONNEL",
         "summarySentence" : "UNE PREMIÈRE VITRINE SUR LE WEB",
         "challenge" : "Réalisation finale et aboutissement de ma formation Openclassrooms. Cette réalisation m'a permis une meilleure maîtrise de React avec ce site full front. L'idée était d'avoir le site le plus simple possible, fluide et clair pour l'utilisateur. Quelques défis techniques ont été relevés comme l'adapation d'un bouton gravité de Javascript Vanilla vers React, ou encore l'utilisation d'un sprite pour animer un bouton. Les points d'améliorations sur cette réalisation concerne la charte graphique qui n'est pas uniforme malgré un retour des couleurs orange et verte sur chaque page.",
-        "githubLink" : "https://github.com/SimonGarbet/P8Garbet",
+        "githubLink" : "https://github.com/SimonGarbet/AncienPortfolio",
         "figmaLink" : "",
         "actualSite" : "",
         "pictures" : {
@@ -119,7 +119,7 @@
         "category" : "NOTATION DE LIVRES",
         "summarySentence" : "DE L'AUTRE CÔTÉ DU SITE",
         "challenge" : "Après avoir programmé côté front, on passe côté serveur; avec ce projet Node/Express. L'objectif était de raccorder le front de ce site de notation de livres déjà prêt à un backend vide. Utilisation de middlewares, opérations CRUD, utilisation de MongoDB, mot de passe hash, implémentation d'un sanitizer ou encore traitement d'images côté serveur, nombreux étaient les défis techniques sur ce projet.",
-        "githubLink" : "https://github.com/SimonGarbet/P7Garbet",
+        "githubLink" : "https://github.com/SimonGarbet/MonVieuxGrimoire",
         "figmaLink" : "https://www.figma.com/file/1n68sa3kpYLlx693ZwaWVQ/Maquette-Mon-Vieux-Grimoire?type=design&t=ywJtJiZCeatxeHnO-6",
         "actualSite" : "",
         "pictures" : {
@@ -153,7 +153,7 @@
         "category" : "LOCATION VOYAGE",
         "summarySentence" : "UTILISATION DE NOTRE PREMIER FRAMEWORK : REACT",
         "challenge" : "Après avoir appris les bases de la programmation avec HTML, CSS et Javascript, nous avions dans les mains notre premier framework : React. L'objectif était de créer notre React App et apprendre les bases sur ce framework en repoduisant le front d'une maquette déjà établie. À l'issu de cette réalisation je savais créer des composants React, gérer/changer le state d'un élément, réaliser des opérations CRUD avec useEffect.",
-        "githubLink" : "https://github.com/SimonGarbet/P6Garbet",
+        "githubLink" : "https://github.com/SimonGarbet/Kasa",
         "figmaLink" : "https://www.figma.com/file/N9L6Gm1OWUzojFp9DG0Iw2/Maquette-Kasa?type=design&t=ywJtJiZCeatxeHnO-6",
         "actualSite" : "",
         "pictures" : {
@@ -187,7 +187,7 @@
         "category" : "PORTFOLIO PHOTOGRAPHE",
         "summarySentence" : "PERFORMANCE, ACCESSIBILITÉ, SEO",
         "challenge" : "Coder un site c'est bien, qu'il soit performant c'est mieux. Après avoir généré un rapport Lighthouse réalisé avec DevTools nous avons vu que le site d'origine de cette photographe n'était pas optimisé et comportait quelques dysfonctionnements. Je devais assurer la maintenance sur ce site en améliorant ses performances, sa SEO ainsi que son accessibilité et aussi corriger quelques erreurs qui s'étaient glissées dans le code.",
-        "githubLink" : "https://github.com/SimonGarbet/P5Garbet",
+        "githubLink" : "https://github.com/SimonGarbet/NinaCarducci",
         "figmaLink" : "",
         "actualSite" : "",
         "pictures" : {
@@ -219,7 +219,7 @@
         "category" : "PORTFOLIO D'ARCHITECTE",
         "summarySentence" : "DÉCOUVERTE DE JAVASCRIPT VANILLA",
         "challenge" : "Je savais faire une page fixe avec HTML et CSS, il fallait maintenant la rendre dynamique grâce à JavaScript. J'avais à ma disposition un back, avec toute la partie fixe front du site réalisée. Je devais gérer le système de log avec l'utilisation du LocalStorage et d'un JSON Web Token, les opérations CRUD GET/POST/DELETE en mode administrateur et les options filter en visiteur.",
-        "githubLink" : "https://github.com/SimonGarbet/P3Garbet",
+        "githubLink" : "https://github.com/SimonGarbet/SophieBluel",
         "figmaLink" : "https://www.figma.com/file/W7CRXQQyYhde2WM9KHcuqE/Maquette-Sophie-Bluel?type=design&t=ywJtJiZCeatxeHnO-6",
         "actualSite" : "",
         "pictures" : {
@@ -253,7 +253,7 @@
         "category" : "LOCATION VOYAGE",
         "summarySentence" : "UNE PREMIÈRE INTÉGRATION DE SITE WEB",
         "challenge" : "Le challenge était clair, je devais intégrer un site et utiliser du HTML et CSS de manière autonome. Une maquette Figma nous était fournie il fallait créer notre première page web fixe et aussi l'adapater sur mobile à l'aide de médias queries. Mon plus gros allié sur ce projet : Flexbox.",
-        "githubLink" : "https://github.com/SimonGarbet/SimonGarbet.github.io",
+        "githubLink" : "https://github.com/SimonGarbet/Booki",
         "figmaLink" : "https://www.figma.com/file/bGT6BLEUKS8UXSNt2hw7tR/Maquettes-Booki?type=design&node-id=3-0&mode=design&t=0X0YXuDeQsPBL1vc-0",
         "actualSite" : "",
         "pictures" : {

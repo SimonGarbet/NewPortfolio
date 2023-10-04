@@ -6,7 +6,7 @@ import Header from '../../components/Header';
 import logomenuB from '../../assets/logomenuB.png';
 import BannerPicture from '../../assets/BannerAbout.png';
 import MNSPicture from '../../assets/MNS_Simon_Garbet.jpeg'
-import TrailPicture from '../../assets/Trail_Simon_Garbet.jpeg'
+import ProfilePicture from '../../assets/imageProfil.jfif';
 import SportyPicture from '../../assets/SportySection.jpg';
 import GamerPicture from '../../assets/GamerSection.png';
 
@@ -39,11 +39,11 @@ function AboutMe() {
         <div className='devDescription'>
           <h3>DÉVELOPPEUR</h3>
           <p>
-            Je suis Simon, <strong>développeur web junior</strong> et je me suis découvert une passion de front-end, de web design, et d’UX/UI design.
-            <br/>J’adore <strong>apprendre de nouvelles technos</strong>, essayer de les comprendre, faire mes premières pages avec et me rendre compte 
+            Je suis Simon, <strong>développeur web </strong> avec un attrait marqué pour le front-end, le web design, et l’UX/UI design.
+            <br/>J’adore <strong>apprendre de nouvelles technologies</strong>, essayer de les comprendre, faire mes premières pages avec et me rendre compte 
             qu’il y a encore un énorme chemin à faire avant d’en devenir expert.
-            <br/>J’adore aussi mettre la main sur une <strong>idée originale</strong> visuellement parlant, m'en inspirer et <strong>essayer de produire une création propre</strong>, avec un succès parfois critique, 
-            parfois inexistant (une occasion de comprendre et recommencer), c’est le jeu !
+            <br/>J’adore aussi mettre la main sur une idée <strong>originale</strong> <strong>visuelle</strong> et <strong>technique</strong>, m'en inspirer et <strong>essayer de produire une création propre</strong>, avec à la clef un succès, 
+            ou un raté (une occasion de comprendre et recommencer), c’est le jeu !
           </p>
         </div>
 
@@ -67,8 +67,8 @@ function AboutMe() {
         </div>
 
         <div className='devGallery'>
-              <img src={MNSPicture} alt='Photographie de Simon Garbet'/>
-              <img className="gapPicture" src={TrailPicture} alt='Photographie de Simon Garbet'/>
+              <img src={ProfilePicture}  alt='Photographie de Simon Garbet'/>
+              <img className="gapPicture" src={MNSPicture} alt='Photographie de Simon Garbet'/>
         </div>
         
       </section>
@@ -80,7 +80,7 @@ function AboutMe() {
           <h3>SPORTIF</h3>
           <p>
             En dehors du monde du travail, je me définis comme un <strong>sportif</strong>. Natation, Surf, Bodysurf (auquel je couple la photographie), 
-            course à pied (compétition 10 et 20km), trail, musculation ... Dès que je peux <strong>découvrir</strong> et <strong>apprendre</strong> un nouveau sport je le fais, 
+            course à pied (compétition 10 et 20km), trail, musculation, roller, escalade ... Dès que je peux <strong>découvrir</strong> et <strong>apprendre</strong> un nouveau sport je le fais, 
             <strong> en groupe</strong> et aussi en <strong>solo</strong>.
           </p>
         </div>
@@ -115,8 +115,8 @@ function AboutMe() {
         <div className='gamerDescription'>
           <h3>GAMER</h3>
           <p>
-            Dernière passion, celle du <strong>jeu-vidéo</strong>. Que ce soit devant un <strong>RPG</strong> à la God of War ou FF16 ou bien en communauté sur un <strong>MMORPG</strong> à la Dofus j’essaie toujours de me garder du temps pour ce hobby.
-            <br/>Je reste attaché aux <strong>guildes de MMORPG</strong> que j’ai pu rejoindre et dans lesquelles je passe énormémént de bon temps et me suis investi en proposant <strong>divers outils d’organisation</strong>.
+            Dernière passion, celle du <strong>jeu-vidéo</strong>. Que ce soit devant un <strong>RPG</strong> comme God of War ou FF16 ou bien en communauté sur un <strong>MMORPG</strong> comme Dofus j’essaie toujours de garder du temps pour ce hobby.
+            <br/>Je reste attaché aux <strong>guildes de MMORPG</strong> que j’ai pu rejoindre et dans lesquelles je passe de bon moments en groupe et me suis investi en proposant <strong>divers outils d’organisation</strong>.
           </p>
         </div>
 

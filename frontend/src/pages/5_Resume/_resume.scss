@@ -179,12 +179,12 @@
             box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
         }
 
-        .orangeBox{
+        .redBox{
             border: #a21d3d 3px solid;
             animation: respiSkillsPart linear infinite 10s;
         }
 
-        .greenBox{
+        .blueBox{
             border: #73899f 3px solid;
             animation: respiSkillsPart linear infinite 13s;
         }
@@ -206,7 +206,7 @@
                 font-size: 18px;
             }
 
-            .orangeWord{
+            .redWord{
                 color: #a21d3d;
                 font-weight: 500;
                 font-size: 20px;
@@ -348,15 +348,15 @@
         }
 
         .arrow1{
-            animation: animArrow1 infinite linear 1.5s;
+            animation: animArrow1 infinite linear 5s;
         }
 
         .arrow2{
-            animation: animArrow2 infinite linear 1.5s;
+            animation: animArrow2 infinite linear 5s;
         }
 
         .arrow3{
-            animation: animArrow3 infinite linear 1.5s;
+            animation: animArrow3 infinite linear 5s;
         }
 
         section{
@@ -770,7 +770,7 @@
                     font-size: 16px;
                 }
 
-                .orangeWord{
+                .redWord{
                     font-size: 16px;
                 }
                 p{
@@ -918,6 +918,10 @@
     }
 
     .leftSideDescriptionResume{
+
+        padding: 30px 20px;
+
+
         .skillsPart{
 
             p{
@@ -933,7 +937,7 @@
                     font-size: 15px;
                 }
 
-                .orangeWord{
+                .redWord{
                     font-size: 15px;
                 }
                 p{

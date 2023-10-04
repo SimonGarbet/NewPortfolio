@@ -77,8 +77,8 @@ function Home() {
         onMouseLeave={() => setOnResume(false)}
         style={{ filter: (onAchievements || onAbout) ? "brightness(0.6)" : "brightness(1)",}}
         >
-          <section className='yellowBlok1'></section>
-          <section className='yellowBlok2'></section>
+          <section className='whiteBlok1'></section>
+          <section className='whiteBlok2'></section>
           <img style={{  transform: onResume ? "scale(1.1)" : "scale(1)",}} src={resumePicture} alt='icone Ordinateur'/>
           <h3 style={{  transform: onResume ? "scale(1.03)" : "scale(1)",}}>C.VITÆ</h3>
         </Link>

@@ -84,12 +84,12 @@ function Resume() {
           <div className='skillsPart'>
             <h4><FontAwesomeIcon icon={faPuzzlePiece} />COMPÉTENCES</h4>
 
-            <p className='greenBox'><strong>CRÉER</strong>, ÉLABORER DES <strong>CONCEPTS <br/>INNOVANTS</strong></p>
-            <p className='orangeBox'><strong>CODER</strong>, CONCEVOIR UNE <br/>APPLICATION WEB</p>
-            <p className='greenBox'>PROPOSER DES <strong>PISTES <br/>D'AMÉLIORATION</strong></p>
-            <p className='orangeBox'><strong>PROMOUVOIR</strong> UNE PROPOSTION, UN <br/>PROJET</p>
-            <p className='greenBox'>ACTUALISER RÉGULIÈREMENT <strong>SES <br/>CONNAISSANCES</strong></p>
-            <p className='orangeBox'>RÉALISER DES <strong>FICHIERS EXCELS</strong> <br/>PERFORMANTS</p>
+            <p className='blueBox'><strong>CRÉER</strong>, ÉLABORER DES <strong>CONCEPTS <br/>INNOVANTS</strong></p>
+            <p className='redBox'><strong>CODER</strong>, CONCEVOIR UNE <br/>APPLICATION WEB</p>
+            <p className='blueBox'>PROPOSER DES <strong>PISTES <br/>D'AMÉLIORATION</strong></p>
+            <p className='redBox'><strong>PROMOUVOIR</strong> UNE PROPOSTION, UN <br/>PROJET</p>
+            <p className='blueBox'>ACTUALISER RÉGULIÈREMENT <strong>SES <br/>CONNAISSANCES</strong></p>
+            <p className='redBox'>RÉALISER DES <strong>FICHIERS EXCELS</strong> <br/>PERFORMANTS</p>
           </div>
 
           <div className='graduationPart'>
@@ -97,14 +97,14 @@ function Resume() {
 
             <div>
             <h5>FORMATION DEVELOPPEUR <br/>WEB</h5>
-            <p className='orangeWord'>OPENCLASSROOMS</p>
+            <p className='redWord'>OPENCLASSROOMS</p>
             <p>DIPLÔME <strong>BAC+2</strong></p>
             <p>2023</p>
             </div>
 
             <div>
             <h5>FORMATION INGÉNIEUR <br/>GÉNIE CIVIL</h5>
-            <p className='orangeWord'>INSA TOULOUSE</p>
+            <p className='redWord'>INSA TOULOUSE</p>
             <p>3 SEMESTRES VALIDÉS</p>
             </div>
           </div>

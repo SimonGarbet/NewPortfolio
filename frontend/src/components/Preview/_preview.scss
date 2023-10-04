@@ -170,10 +170,16 @@
     
         .titlePreview{  
             text-align: center;
+            height: 40%;
+            transform: translateY(40%) !important;
             
             svg{
                 font-size: 50px;
             }
+        }
+
+        .picPreviewPart{
+            transform: translateY(0) !important;
         }
     
     

@@ -54,7 +54,7 @@ function Preview({id, maincolor, type, shortTitle, techno, imageSelect}) {
         <Link onClick={scrollToTop} to = {`/achievements/${id}`} 
         style={{color: textColorPreview}}
         >
-            <div  className='titlePreview' style={{transform: onPreview ? "scale(1.1) translateY(15vh)" : "scale(1) translateY(15vh)"}}>
+            <div  className='titlePreview' style={{transform: onPreview ? "scale(1.1" : "scale(1)"}}>
             <FontAwesomeIcon icon= {iconFontAwesome} className='fontAwesomeTitleProject' style={{color: maincolor}}/>
             <h2>{shortTitle}</h2>
             {techno.map((tech) => (
@@ -62,7 +62,7 @@ function Preview({id, maincolor, type, shortTitle, techno, imageSelect}) {
             ))}
             </div>
 
-            <div className='picPreviewPart' style={{transform: onPreview ? "scale(1.05) translateY(-15vh)" : "scale(1) translateY(-15vh)"}} >
+            <div className='picPreviewPart' style={{transform: onPreview ? "scale(1.05)" : "scale(1)"}} >
                 <div className='cutterPic'>
                 <img className='iphoneContainer' src={iPhone} alt="Prévisualisation du site web sur un Iphone"/>
                 <img className='picAchievement' src={imageSelect} alt="Prévisualisation du site web sur un Iphone" />

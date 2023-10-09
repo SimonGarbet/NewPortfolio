@@ -97,7 +97,7 @@
     top: 0;
     right: 0;
     z-index: 21;
-    height: 100vh;
+    height: 100dvh;
     width: 65%;
 
    transition-duration: 1s;
@@ -315,16 +315,6 @@
 
         padding-top: 20px;
 
-        &::after{
-            content: '';
-            display: block;
-            position: absolute;
-            z-index: -1;
-            left: -5vw;
-            height: 29px;
-            width: 100vw;
-        }
-
         .homePageLink{
             padding: 1px 10px;
             border-radius: 5px;
@@ -341,7 +331,8 @@
 
         button{
             font-size: 14px;
-            padding: 7px 15px;
+            padding: 1px 10px;
+            border-radius: 5px;
             gap: 10px;
 
             img{
@@ -367,7 +358,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        height: 70vh;
+        height: 70dvh;
         gap: 50px;
 
         div{

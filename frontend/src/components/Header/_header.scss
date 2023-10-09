@@ -109,16 +109,16 @@
 
 .menuModalHeader{
     display: flex;
-    justify-content: center;
     gap: 20%;
-    height: 80vh;
+    height: 70vh;
+    width: 85%;
     margin: auto;
 
     div{
         display: flex;
         flex-direction: column;
         gap: 20px;
-        transform: translateY(35%)
+        margin-top: 20dvh;
     }
 
     h3{
@@ -360,14 +360,16 @@
     }
     
     .menuModalHeader{
-        gap: 15%;
         flex-direction: column-reverse;
         align-items: center;
+        justify-content: center;
         text-align: center;
         height: 70vh;
+        gap: 50px;
+        padding-top: 50px;
 
         div{
-            transform: translateY(20%);
+            margin-top: 0px;
         }
 
         h3{

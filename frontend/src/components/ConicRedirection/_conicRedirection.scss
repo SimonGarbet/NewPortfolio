@@ -1,0 +1,88 @@
+
+.globalConic{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+h3{
+    font-size: 60px;
+}
+
+.conicForm{
+    height: 15dvh;
+    width: 40vw;
+    max-width: 600px;
+    border-radius: 50px;
+
+    overflow: hidden;
+    
+    position: relative;
+
+    .conicColor{
+        height: 500%;
+        width: 200%;
+       animation: movingBlock infinite linear 30s;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+    }
+
+}
+
+@keyframes movingBlock { 
+    0% {
+        transform: rotate(0) translate(-50%, -50%);
+        transform-origin: (0 0);
+    }
+
+    50% {
+        transform: rotate(180deg) translate(-50%, -50%);
+        transform-origin: (0 0);
+    }
+
+    100%{
+        transform: rotate(360deg) translate(-50%, -50%);
+        transform-origin: (0 0);
+    }
+  }
+
+
+
+  @media (max-width : 1000px){
+    
+    
+    h3{
+        font-size: 40px;
+    }
+    
+
+
+
+
+  }
+
+
+
+  @media (max-width : 750px){
+
+    .globalConic{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .conicForm{
+        width: 80vw;
+    }
+    
+    
+    h3{
+        font-size: 30px;
+    }
+    
+
+  }

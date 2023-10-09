@@ -5,12 +5,8 @@ import { Link } from 'react-router-dom';
 import '../../scss/style.scss';
 
 import Header from '../../components/Header';
-
-import widPicture from '../../assets/whatido.png';
-import blackHole from '../../assets/Blackhole.gif';
-import surfPicture from '../../assets/surfer.png';
-import resumePicture from '../../assets/CV_Simon_Garbet_Portfolio.png';
-import logomenuB from '../../assets/logomenuB.png';
+import ConicRedirection from '../../components/ConicRedirection';
+import logomenuW from '../../assets/logomenuW.png';
 
 
 function Home() {
@@ -33,39 +29,25 @@ function Home() {
       <Header 
       colorLogo='#fff'
       colorBackgroundLogo = '#000'
-      logoMenu={logomenuB}
-      colorMenu= '#000'
-      colorBackgroundMenu = "#fff"
+      logoMenu={logomenuW}
+      colorMenu= '#fff'
+      colorBackgroundMenu = "#000"
       menuVisible= "y"
       />
 
-      <section className='backgroundGIF'>
-        <img src={blackHole} className="blackHoleHome" alt="Animation GIF Cercle Noir"></img>
-      </section>
-
-
-      <section  className='titleHome'>
-        <h2 className='galleryWordHome'>QUICK</h2>
-        <h2>START</h2>
-      </section>
-
       <section className='menuHome'>
 
-      <Link onClick={scrollToTop} to = {'/achievements'} className='widPartHome'
-      onMouseOver={() => setOnAchievements(true)}
-      onMouseLeave={() => setOnAchievements(false)}
-      style={{ filter: (onAbout || onResume) ? "brightness(0.6)" : "brightness(1)",}}
-      >
-
-          <section className='allBarret'>
-          <section className='redBarret1' ></section>
-          <section className='redBarret2'></section>
-          <section className='redBarret3'></section>
-          <section className='redBarret4' ></section>
-          </section>
-
-          <img style={{  transform: onAchievements ? "scale(1.1)" : "scale(1)",}} src={widPicture} alt='icone Ordinateur'/>
-          <h3 style={{  transform: onAchievements ? "scale(1.03)" : "scale(1)",}}>RÉALISATIONS</h3>
+        <Link onClick={scrollToTop} to = {'/achievements'} className='widPartHome'
+        onMouseOver={() => setOnAchievements(true)}
+        onMouseLeave={() => setOnAchievements(false)}
+        style={{ filter: (onAbout || onResume) ? "brightness(0.6)" : "brightness(1)",}}
+        >
+          <ConicRedirection
+          color1='#A31621'
+          color2= '#FED766'
+          maintitle='RÉALISATIONS'
+          />
+          
         </Link>
 
         <Link onClick={scrollToTop} to = {'/aboutme'} className='surfPartHome'
@@ -73,8 +55,12 @@ function Home() {
         onMouseLeave={() => setOnAbout(false)}
         style={{  filter: (onAchievements || onResume) ? "brightness(0.6)" : "brightness(1)",}}
         >
-          <img style={{  transform: onAbout ? "scale(1.1)" : "scale(1)",}} src={surfPicture} alt='icone Ordinateur'/>
-          <h3 style={{  transform: onAbout ? "scale(1.03)" : "scale(1)",}}>À PROPOS</h3>
+
+          <ConicRedirection
+          color1='#007991'
+          color2='#EA526F'
+          maintitle='À PROPOS'
+          />
         </Link>
 
         <Link onClick={scrollToTop} to = {'/resume'} className='resumePartHome'
@@ -82,10 +68,13 @@ function Home() {
         onMouseLeave={() => setOnResume(false)}
         style={{ filter: (onAchievements || onAbout) ? "brightness(0.6)" : "brightness(1)",}}
         >
-          <section className='whiteBlok1'></section>
-          <section className='whiteBlok2'></section>
-          <img style={{  transform: onResume ? "scale(1.1)" : "scale(1)",}} src={resumePicture} alt='icone Ordinateur'/>
-          <h3 style={{  transform: onResume ? "scale(1.03)" : "scale(1)",}}>C.VITÆ</h3>
+
+        <ConicRedirection
+          color1="#DEEFB7"
+          color2="#358600"
+          maintitle="CURRICULUM"
+          />
+
         </Link>
 
       </section>

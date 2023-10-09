@@ -10,7 +10,6 @@ function ConicRedirection({color1, color2, maintitle}) {
 
           <div className='conicForm'>
             <div className='conicColor' style={{ background: `conic-gradient(${color1} 0deg, ${color2} 180deg, ${color1} 360deg)`}}></div>
-            <div className='conicTop'></div>
           </div>
 
         <h3>{maintitle}</h3>

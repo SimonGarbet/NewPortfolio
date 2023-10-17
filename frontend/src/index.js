@@ -8,6 +8,7 @@ import Project from './pages/3_Project';
 import AboutMe from './pages/4_AboutMe';
 import Resume from './pages/5_Resume';
 import Error404 from './pages/6_Error404';
+import TravelSwitch from './pages/7_TravelSwitch';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
         <Route path='/achievements/:id' element={<Project/>}/>
         <Route path='/aboutme' element={<AboutMe/>}/>
         <Route path='/resume' element={<Resume />}/>
+        <Route path='/travelswitch' element={<TravelSwitch />}/>
         <Route path='*' element={<Error404 />}/>
       </Routes>
     </Router>

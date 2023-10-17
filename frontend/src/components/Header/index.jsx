@@ -54,7 +54,7 @@ function Header({colorLogo, colorBackgroundLogo, logoMenu, colorMenu, colorBackg
                     <Link onClick={scrollToTop} to = {'/achievements'}><strong>R</strong>ÉALISATIONS</Link>
                     <Link onClick={scrollToTop} to = {'/aboutme'}><strong>À</strong> PROPOS</Link>
                     <Link onClick={scrollToTop} to = {'/resume'}><strong>C</strong>URRICULUM/<strong>V</strong>ITÆ</Link>
-                    <Link onClick={scrollToTop} to = {'/404'} style={{fontSize: '30px'}}><strong>404</strong> DESIGN</Link>
+                    <Link onClick={scrollToTop} to = {'/travelswitch'} style={{fontSize: '30px'}}>TRAVEL<strong> SWITCH</strong> </Link>
                 </div>
             </section>
 

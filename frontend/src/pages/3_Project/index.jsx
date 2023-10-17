@@ -133,7 +133,7 @@ const scrollToTop = () => {
                   <div className='gfLinks'>
                   <a href={projectTarget[0].githubLink} target="_blank" rel="noopener noreferrer">Github</a>
                   <a style={{display: (projectTarget[0].figmaLink === "") ? "none" : "block" }} href={projectTarget[0].figmaLink} target="_blank" rel="noopener noreferrer">Figma</a>
-                  <a style={{display: (projectTarget[0].actualSite === "") ? "none" : "block" }} href={projectTarget[0].actualSite} target="_blank" rel="noopener noreferrer">Modèle</a>
+                  <a style={{display: (projectTarget[0].actualSite === "") ? "none" : "block" }} href={projectTarget[0].actualSite} target="_blank" rel="noopener noreferrer">Site Web</a>
                   </div>
                 </div>
               </div>

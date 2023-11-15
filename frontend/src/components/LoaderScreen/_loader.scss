@@ -1,0 +1,259 @@
+.globalLoader{
+
+    height: 100dvh;
+    width: 100dvw;
+
+    position: absolute;
+    z-index: 30;
+
+    background: white;
+
+    .loaderTitle{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 70dvh;
+
+        font-weight: 600;
+
+        font-size: 100px;
+
+      
+
+        .loaderPoint{
+            position: relative;
+
+            width: 20px;
+            height: 20px;
+            border-radius: 360px;
+            margin : 50px 10px 0 10px;
+        
+           
+
+            div{
+                position: absolute;
+                z-index: -1;
+                width: 20px;
+                height: 20px;
+                border-radius: 360px;
+                background: black;
+
+                animation: movingPoint 4s linear;
+
+                &::after{
+                    content: '';
+                    position: absolute;
+                    z-index: -1;
+                    width: 400px;
+                    height: 400px;
+                    background: white;
+                    transform: translate(330px, 55px) rotate(-46deg);
+                }
+            }
+        }
+
+         .loaderCOM{
+            font-size: 50px;
+            margin-top: 35px;
+            animation: vanishLetter 4.20s linear;
+         }
+         
+
+    }
+
+
+    
+  .loadingSentence{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+    .mainSentence{
+    font-size: 60px;
+    font-weight: 500;
+    }
+
+    .loaderLogo{
+       position: relative;
+
+        height: 50px;
+        width: 50px;
+        border-radius: 360px;
+        border: black 5px solid;
+        margin-top: 30px;
+
+        animation: rotateLoader 2s infinite linear;
+
+        &::after{
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: 13px;
+
+            background: white;
+            height: 30px;
+            width: 40px;
+        }
+    }
+
+  }
+
+}
+
+
+@keyframes rotateLoader{
+
+    0%{
+    transform: rotate(0);
+    transform-origin: 0, 0;
+    }
+
+    100%{
+       transform: rotate(360deg);
+       transform-origin: 0 , 0;
+    }
+}
+
+
+
+
+@keyframes movingPoint{
+
+  
+
+    0%{
+        transform: rotate(0);
+        transform-origin: (100px 0);
+    }
+
+    25%{
+        transform: rotate(0);
+        transform-origin: (100px 0);
+    }
+
+    35%{
+        transform: rotate(180deg) translateY(0);
+        transform-origin: (300px 0);
+        height: 20px;
+        width: 20px;
+    }
+
+    40%{
+        height: 500px;
+        width: 500px;
+        transform: rotate(180deg) translateY(-250px);
+        transform-origin: (300px 0);
+    }
+
+    100%{
+        height: 500px;
+        width: 500px;
+        transform: rotate(180deg) translateY(-250px) translateX(1440px);
+        transform-origin: (300px 0);
+    }
+}
+
+
+
+@keyframes vanishLetter {
+
+    0%{
+        opacity: 1;
+    }
+
+    49%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
+
+
+
+.loaderMainS{
+    animation : vanishLetter 6.8s linear;
+}
+
+
+.loaderMainI{
+    animation : vanishLetter 6.6s linear;
+}
+
+.loaderMainM{
+    animation : vanishLetter 6.4s linear;
+}
+
+.loaderMainO{
+    animation : vanishLetter 6.2s linear;
+}
+
+.loaderMainN{
+    animation : vanishLetter 6s linear;
+}
+
+
+.loaderMainG{
+    animation : vanishLetter 5.8s linear;
+}
+
+
+.loaderMainA{
+    animation : vanishLetter 5.6s linear;
+}
+
+
+.loaderMainR{
+    animation : vanishLetter 5.4s linear;
+}
+
+.loaderMainB{
+    animation : vanishLetter 5.2s linear;
+}
+
+.loaderMainE{
+    animation : vanishLetter 5s linear;
+}
+
+.loaderMainT{
+    animation : vanishLetter 4.8s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

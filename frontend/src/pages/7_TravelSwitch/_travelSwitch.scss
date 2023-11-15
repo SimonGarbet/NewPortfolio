@@ -23,23 +23,29 @@
     text-align: center;
 
         h1{
-            font-size: 200px;
+            font-size: 120px;
             font-weight: 500;
             font-family: "Vallen Gaye";
             color: #DF7373;
+            margin-top: 5dvh;
         }
 
         .blockSwitch{
 
             position: relative;
             margin: 10dvh 0;
+            
+
+            .switchLogoHome{
+                width: 250px;
+            }
 
             .arrowLoopHome{
                 position: absolute;
-                top: 65%;
+                top: 25%;
                 left: 110%;
 
-                transform: rotate(30deg);
+                transform: rotate(-20deg);
 
                 width: 200px;
                 image-orientation: revert;
@@ -47,8 +53,8 @@
 
             p{
                 position: absolute;
-                top: 115%;
-                left: 125%;
+                top: 35%;
+                left: 185%;
 
                 width: 250px;
                 text-align: center;
@@ -70,33 +76,33 @@
     justify-content: center;
     align-items: center;
 
-    gap: 5dvh;
+    gap: 20px;
 
     padding-bottom: 20dvh;
     text-align: center;
 
 
     h1{
-        font-size: 200px;
+        font-size: 120px;
         font-weight: 500;
         font-family: "Vallen Gaye";
         color: #DF7373;
     }
 
     h2{
-        font-size: 50px;
+        font-size: 25px;
         text-align: center;
         margin-top: 5dvh;
     }
 
     .homeRedirection{
-        font-size: 25px;
+        font-size: 18px;
         text-decoration: underline;
         cursor: pointer;
     }
 
     p{
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 
@@ -107,7 +113,7 @@
     .globalTSHome{
     
             h1{
-                font-size: 120px;
+                font-size: 100px;
             }
     
             .blockSwitch{
@@ -141,19 +147,19 @@
     
     
         h1{
-            font-size: 120px;
+            font-size: 100px;
         }
     
         h2{
-            font-size: 30px;
+            font-size: 20px;
         }
     
         .homeRedirection{
-            font-size: 25px;
+            font-size: 18px;
         }
     
         p{
-            font-size: 16px;
+            font-size: 15px;
         }
     }
     

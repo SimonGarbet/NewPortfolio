@@ -138,13 +138,13 @@
 
 
     h1{
-        font-size: 120px;
+        font-size: 70px;
         font-family: "Vallen Gaye";
         font-weight: 400;
     }
 
     h2{
-        font-size: 50px;
+        font-size: 35px;
     }
 
     p{
@@ -156,6 +156,10 @@
         position: relative;
         margin-top: 100px;
 
+        .switchLogoLocation{
+            width: 200px;
+        }
+
         .arrowLoopLocation{
             position: absolute;
 
@@ -163,14 +167,14 @@
             left: 110%;
 
             width: 100px;
-            transform: rotate(15deg);
+            transform: rotate(-15deg);
             
         }
 
         p{
             position: absolute;
-            top: 35%;
-            left: 110%;
+            top: 0%;
+            left: 170%;
         }
     }
 }
@@ -200,11 +204,11 @@
     .descriptionLocation{
     
         h1{
-            font-size: 80px;
+            font-size: 60px;
         }
     
         h2{
-            font-size: 40px;
+            font-size: 30px;
         }
     
         p{
@@ -213,10 +217,6 @@
     
         div{
             margin-top: 80px;
-
-            .switchLogoLocation{
-                width: 30dvw;
-            }
     
             .arrowLoopLocation{
                 position: absolute;

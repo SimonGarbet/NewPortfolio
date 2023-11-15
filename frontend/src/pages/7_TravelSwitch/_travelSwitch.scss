@@ -47,14 +47,14 @@
 
                 transform: rotate(-20deg);
 
-                width: 200px;
+                width: 100px;
                 image-orientation: revert;
             }
 
             p{
                 position: absolute;
-                top: 35%;
-                left: 185%;
+                top: 25%;
+                left: 145%;
 
                 width: 250px;
                 text-align: center;
@@ -119,19 +119,18 @@
             .blockSwitch{
 
                 .switchLogoHome{
-                    width: 32dvw;
+                    width: 200px;
                 }
     
                 .arrowLoopHome{
-                    top: 65%;
+                    top: 35%;
                     left: 110%;
     
-                    width: 15dvw;
                 }
     
                 p{
-                    left: 120%;
-                    top: 100%;
+                    left: 150%;
+                    top: 50%;
     
                     width: 20dvw;
                     font-size: 16px;
